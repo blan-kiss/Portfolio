@@ -1,0 +1,63 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(../imgs/watercolor_spots.jpg);
+    background-repeat: no-repeat;
+    background: cover;
+    margin: 0;
+    padding: 0;
+    /* font-family: 'Montserrat', sans-serif; */
+}
+
+@media (min-width: 280px) and (max-width: 480px) {
+    /* Navbar -------------------------------*/
+    img {
+        width: 40%;
+        /* border: 1px solid orangered; */
+        margin-left: 2px;
+        margin-right: -7px;
+        background-color: transparent;
+    }
+    /* Recorre el menu de hamburguesa */
+    nav .navbar {
+        background: transparent;
+    }
+    /* .container-fluid { */
+    /* padding-right: 15px; */
+    /* font-family: 'Montserrat', sans-serif; */
+    /* } */
+
+
+
+    .navbar-nav {
+        font-family: 'Montserrat', sans-serif;
+        color: rgb(90, 88, 88);
+    }
+  
+ 
+    .navbar-light {
+         background-color: #bb9eb2e0;
+         /* solo background para area de navbar */
+    }
+    
+
+    .navbar-light .navbar-toggler {
+        border: 5px solid #1b123c;
+        margin-right: 7px;
+    }
+    a.nav-link {
+        margin-left: 25px;
+    }
+    /* Ajustar links del menu el texto HOME/Work cuando se despliega*/
+
+    header {
+        position: fixed;
+        top:0;
+        width: 100%;
+    }
+    /* Fijar menu navbar */
+}

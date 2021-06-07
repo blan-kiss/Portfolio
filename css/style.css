@@ -1,0 +1,382 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+body {
+    background-image: url(../imgs/watercolor_spots.jpg);
+    background-repeat: no-repeat;
+    background: cover;
+    margin: 0;
+    padding: 0;
+    
+}
+
+#main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    /* border: 3px solid red; */
+}
+
+/* ----------Index design  ---------------------------------------------------*/
+
+#container-logo {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    /* height: 100vh; */
+    align-items: center;
+    /* border: 3px solid black; */
+    margin-top: 10%;
+}
+
+#Blogo {
+    /* border: 2px solid yellow; */
+    width: 100%;
+    padding: 30px;
+    margin: 0px;
+}
+
+img {
+    width: 100%;
+    /* height: 100%; */
+    /* border: 2px solid green; */
+}
+
+footer {
+    display: inline-block;
+    position: absolute;
+    bottom: 0;
+    /* line-height: 50px; */
+    text-align: center;
+    min-width: 100%;
+    /* background-color: #4c538493; */
+    color: rgb(107, 105, 105);
+    font-size: 0.7em;
+    font-family: 'Montserrat', sans-serif;
+    /* border: 2px solid black; */
+    margin-bottom: 10px;
+}
+
+small {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.6em;
+    padding-bottom: 5px;
+    
+}
+
+
+
+#div-btn {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    margin-left: 0;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: .8em;
+    border-radius: 5px;
+    margin-top: 70px;
+    /* border: 2px solid rebeccapurple; */
+}
+
+
+#btn-enter {
+    text-decoration: none;
+    background-color: #bb9eb2;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 6px;
+    box-shadow: gray 5px 5px 8px;
+    
+}
+
+#btn-enter:hover {
+    background-color:#1b123c;
+    color: white;
+}
+
+
+
+/* For tablets: SURFACE DUO  -----------------------------*/
+
+@media only screen and (min-width: 500px) {
+
+    #main-container {
+        /* border: 3px solid purple; */
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+  
+    #container-logo {
+        /* border: 3px solid orangered; */
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 70%;
+        margin-top: 10%;
+        align-items: center;
+    }
+    #Blogo {
+        /* border: 2px solid yellow; */
+        width: 100%;
+       
+        
+    }
+
+    img {
+        width: 100%;
+        /* height: 85%; */
+        /* border: 2px solid green; */
+    }
+
+
+
+    /* Btn - enter */
+    #btn-enter {
+        font-size: 0.8em;
+        box-shadow: gray 10px 10px 8px;
+    }
+
+
+    #div-btn {
+        /* border: 3px solid green; */
+        width: 100%;
+        font-size: 1.2em ;
+    }
+
+    footer {
+        color: rgb(44, 43, 43);
+        font-size: 0.8em;
+        
+        /* border: 2px solid black; */
+    }
+
+    
+
+}
+
+
+
+
+
+/* TABLET IPAD ------------------------------------------------------*/
+
+@media only screen and (min-width: 750px) {
+     
+    #main-container {
+        /* border: 3px solid blue; */
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+
+    #container-logo {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 70%;
+        /* border: 2px solid black; */
+    }
+
+
+    #Blogo {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        /* border: 2px solid yellow; */
+        width: 100%;    
+    }
+
+
+    img {
+        width: 100%;
+        /* border: 2px solid yellow; */
+       
+    }
+
+
+
+    /* Btn - enter */
+    #btn-enter {
+        
+        box-shadow: gray 10px 10px 8px;
+        border-radius: 10px;
+        font-size: 1em;
+        
+    }
+
+
+    #div-btn {
+        /* border: 3px solid tomato; */
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 100%;
+       
+        
+    }
+
+
+
+    footer {
+        display: block;
+        position: absolute;
+        bottom: 0;
+        line-height: 90px;
+        text-align: center;
+        min-width: 100%;
+        color: rgb(44, 43, 43);
+        font-size: 1em;
+        
+    }
+
+
+    
+}
+
+
+/* TABLET IPAD-PRO --------------------------------------------------*/
+
+@media only screen and (min-width:992px) {
+
+    #main-container {
+        /* border: 3px solid darkred; */
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    #container-logo {
+        /* border:3px solid rebeccapurple; */
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 70%;
+    }
+
+    #Blogo {
+        /* border: 3px solid gold; */
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        
+    }
+
+    #logo {
+        width: 100%;
+    }
+
+    #div-btn {
+        /* border: 3px solid hotpink; */
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 100%;
+        margin-top: 10%;
+       
+    }
+    
+    #btn-enter {
+        padding-left: 55px;
+        padding-right: 55px;
+        padding-top: 25px;
+        padding-bottom: 25px;
+        font-size: 1.3em;
+    }
+
+
+    footer{
+
+        display: block;
+        position: absolute;
+        bottom: 0;
+        line-height: 120px;
+        text-align: center;
+        min-width: 100%;
+        color: rgb(44, 43, 43);
+        font-size: 1.2em;
+    }
+}
+
+
+
+/* DESKTOP -------------------------------------------*/
+
+@media only screen and (min-width: 1280px) {
+
+    #main-container {
+        /* border: 3px solid mediumorchid; */
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    #container-logo {
+        /* border:3px solid navy; */
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 30%;
+        margin-top: 2%;
+    }
+
+    #Blogo {
+       /* border:3px solid olive; */
+       display: flex;
+       flex-wrap: wrap;
+       justify-content: center;
+       width: 100%;
+    }
+
+    
+    #div-btn {
+        /* border: 3px solid cornflowerblue; */
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 100%;
+        margin-top: 2%;
+
+    }
+
+    #btn-enter {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-right: 40px;
+        padding-left: 40px;
+    }
+
+
+    footer{
+
+        display: block;
+        position: absolute;
+        bottom: 0;
+        line-height: 90px;
+        text-align: center;
+        min-width: 100%;
+        color: rgb(44, 43, 43);
+        font-size: 0.9em;
+        /* border: 3px solid darkred; */
+    }
+
+}
+
+
+
+
+
+

@@ -1,0 +1,602 @@
+/* ----------Home design  ---------------------------------------------------*/
+
+
+    * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+    
+    body {
+        background-image: url(../imgs/watercolor_spots.jpg);
+        background-repeat: no-repeat;
+        background: cover;
+        margin: 0;
+        padding: 0;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+
+
+    /* MOBILES --------------------------------------------- */
+
+
+    @media (min-width: 280px) and (max-width: 480px) {
+    .flex-container {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 5px auto;
+        /* margin: 10px auto; version escritorio*/
+        /* border: 2px solid black; */
+        padding: 10px;
+        padding-top: 0;
+        /* height: 100vh; */
+        /* width: 80%; solo escritorio */
+        margin-top: 130px;
+        /* Margen unicamente para cuando el menu esta fijo en el header */
+    }
+
+    section .flex-container {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100% auto;
+    }
+
+    .flex-item {
+        /* border: 1px solid green; */
+        width: 100%;
+        margin: 7px 0;
+        border-radius: 8px;
+        text-decoration: none;
+    }
+    .flex-item.box-1 {
+        background-color: #4c538449;
+        padding-bottom: 10px;
+    }
+    .flex-item.box-2 {
+        background-color: #bb9eb2;
+    }
+    .flex-item.box-3 {
+        background-color: #8b617f;
+    }
+    .flex-item.box-4 {
+        background-color: #4c5384;
+    }
+    .flex-item.box-5 {
+        background-color: #2f2859;
+    }
+    .flex-item.box-6 {
+        background-color: #1b123c;
+    }
+
+
+
+    /* Navbar -------------------------------*/
+
+
+    img {
+        width: 40%;
+        /* border: 1px solid orangered; */
+        margin-left: 2px;
+        margin-right: -7px;
+        background-color: transparent;
+    }
+    /* Recorre el menu de hamburguesa */
+    
+    
+    nav .navbar {
+        /* padding-left: 16px; */
+        /* margin-right: 20px; */
+        background: transparent;
+        /* border: 2px solid red; */
+        /* Contenedor para imagen del logo */
+    }
+    .container-fluid {
+        padding-right: 15px;
+    }
+
+    .navbar-nav {
+        font-family: 'Montserrat', sans-serif;
+        color: rgb(90, 88, 88);
+    }
+
+    .navbar-light {
+        background-color: #bb9eb2e0;
+        /* solo background para area de navbar */
+    }
+
+    .navbar-light .navbar-toggler {
+        border: 5px solid #1b123c;
+        margin-right: 7px;
+    }
+    
+
+
+    a.nav-link {
+        margin-left: 25px;
+        /* Ajustar links del menu el texto HOME/Work cuando se despliega*/
+    }
+
+
+    header {
+        position: fixed;
+        top:0;
+        width: 100%;
+    }
+    /* Fijar menu navbar */
+
+
+
+    
+    /* Parrafos y h --------------------------------- */
+    p {
+        font-family: 'Montserrat', sans-serif;
+        padding: 10px;
+    }
+
+    h2 {
+        text-align: center;
+        padding: 25px;
+        /* margin-top: 40px; */
+    }
+    h4 {
+        font-size: 1em;
+        text-align: center;
+        padding-top: 35px;
+        padding-bottom: 20px;
+        font-family: 'Montserrat', sans-serif;
+        color: white;
+
+
+    }
+    .flex-item.box-3 {
+        color: white;
+    }
+    .flex-item.box-4 {
+        color: white;
+    }
+    .flex-item.box-5 {
+        color: white;
+    }
+    .flex-item.box-6 {
+        color: white;
+    }
+
+
+    
+    /* Footer ------------------------------------ */
+    footer {
+        display: inline-block;
+        bottom: 0;
+        line-height: 80px;
+        text-align: center;
+        min-width: 100%;
+        /* border: 2px solid blue; */
+        color: rgb(44, 43, 43);
+        font-size: 0.7em;
+        font-family: 'Montserrat', sans-serif;
+    }
+}
+
+
+
+
+
+/* For tablets: SURFACE DUO  -----------------------------*/
+
+@media only screen and (min-width: 500px) {
+
+
+     .flex-item.flex-item.box-1 {
+        /* border: 1px solid green; */
+        width: 95%;
+        height: 200px;
+        margin: 15px 0;
+        margin-left: 14px;
+        margin-right: 20px;
+        margin-top: 20px;
+        border-radius: 8px;
+        background-color: #4c538449;
+        /*Ajustar bloque 1 de texto  */
+        margin-top: 140px;
+        /* margen por nav fijo */
+    }
+    
+   
+    .flex-item {
+        width: 45%;
+        height: 200px;
+        float: left;
+        margin: 11px 15px;
+        border-radius: 8px;
+        text-align: center;
+        text-decoration: none;
+        font-family: 'Montserrat', sans-serif;
+    }
+     
+
+    .flex-item.box-2 {
+        background-color: #bb9eb2; 
+        margin-right: 9px;
+    }
+
+    .flex-item.box-3 {
+        background-color: #8b617f;
+        margin-left: 9px;
+    }
+    .flex-item.box-4 {
+        background-color: #4c5384;
+        margin-right: 9px;
+    }
+    .flex-item.box-5 {
+        background-color: #2f2859;
+        margin-left: 8px;
+    }
+    .flex-item.box-6 {
+        background-color: #1b123c;
+        margin-right: 9px;
+    }
+
+
+    p {
+        font-family: 'Montserrat', sans-serif;
+        margin: 18px;
+        padding-top: 12px;
+        text-align: center;
+    }
+    h2 {
+        text-align: center;
+        padding: 10px;
+        padding-top: 30px;
+        margin-top: 30px;
+    }
+    h4 {
+        text-decoration: none;
+        padding-top: 80px;
+        color: white;
+    }
+
+
+
+
+
+    /* NAVBAR ------------------------------------- */
+    
+    .navbar-light {
+        background-color: #bb9eb2e0;
+        /* border: 2px solid black */
+        /* solo background para area de navbar */
+    }
+
+    nav .navbar {
+        background: transparent;
+    }
+    /* quitar background del cuadro donde aparace el logo parte del nav */
+
+    .navbar-light .navbar-toggler {
+        margin-right: 25px;
+        
+    }
+    /* mover menu hamburguer */
+
+
+    a.nav-link {
+        margin-left: 35px;
+        font-family: 'Montserrat', sans-serif;
+    }
+    /* Ajustar links del menu el texto HOME/Work */
+
+   
+
+
+    img {
+        width: 40%;
+        margin-left: 10px;
+        background-color: transparent;
+    }
+
+
+    header {
+        position: fixed;
+        top:0;
+        width: 100%;
+    }
+    /* Fijar menu navbar */
+
+
+
+
+
+
+    /* FOOTER  ------------------------------------------------- */
+
+
+
+    footer {
+        display: inline-block;
+        bottom: 0;
+        line-height: 80px;
+        text-align: center;
+        min-width: 100%;
+        border-top: 1px solid gray;
+        color: rgb(44, 43, 43);
+        font-size: .8em;
+        font-family: 'Montserrat', sans-serif;
+  
+    }
+
+
+
+
+}
+
+
+
+/* TABLET IPAD ------------------------------------------------------*/
+
+@media only screen and (min-width: 750px) {
+
+
+
+    .flex-item.flex-item.box-1 {
+        /* border: 1px solid green; */
+        width: 95%;
+        /* height: 200px; */
+        /* margin: 15px 80px; */
+        margin-left: 20px;
+        /* margin-right: 50px; */
+        /* margin-top: 20px; */
+        /* border-radius: 8px; */
+        /* background-color: #4c538449; */
+        /* font-family: 'Montserrat', sans-serif; */
+        /*Ajustar bloque 1 de texto  */
+        margin-top: 150x;
+    }
+    
+    .flex-item {
+        width: 46%;
+        height: 200px;
+        float: left;
+        margin: 11px 21px;
+        border-radius: 8px;
+        text-align: center;
+        text-decoration: none;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+
+    a.nav-link {
+        margin-left: 38px;
+        
+    }
+    /* Ajustar links del menu el texto HOME/Work */
+
+    
+    
+
+    img {
+        width: 45%;
+        margin-left: 20px;
+        margin-right: -7px;
+      
+    }
+
+    footer {
+        font-size: .9em;
+    }
+
+}
+
+
+
+
+
+
+/* TABLET IPAD-PRO --------------------------------------------------*/
+
+@media only screen and (min-width:1024px) {
+
+    li a  {
+        margin: 15px;
+       
+    }
+    
+    img {
+        width: 100%;
+        margin-left: 6px;
+        
+    }
+    /* Para mover el logo */
+
+    a.nav-link {
+        margin-left: 5px;
+        margin-right: 10px;    
+    }
+    /* Ajustar links del menu el texto HOME/Work */
+
+
+    div .container  {
+        margin-left: 6px;
+        padding: 0;
+    }
+
+    div .navbar-collapse {
+        margin-left: 47%;
+    }
+    /* Para mover los links de menu hacia la derecha */
+
+   
+
+
+    .flex-item.flex-item.box-1 {
+        /* border: 1px solid green; */
+        width:  95%;
+        height: 200px;
+        margin-left: 26px;
+        font-family: 'Montserrat', sans-serif;
+        /*Ajustar bloque 1 de texto  */
+    }
+
+    .flex-item {
+        width: 46.2%;
+        height: 200px;
+        float: left;
+        margin: 11px 29px;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    section {
+        height: 80vh;
+    }
+
+
+    footer {
+        position: absolute;
+        /* bottom: 0; */
+        /* line-height: 80px; */
+        /* text-align: center; */
+        /* min-width: 100%; */
+        border: 1px solid rgb(160, 45, 45);
+        /* color: rgb(44, 43, 43); */
+        font-size: 1em;
+        /* font-family: 'Montserrat', sans-serif; */
+  
+    }
+
+    
+
+
+
+    
+}
+
+
+
+
+
+/* DESKTOP -------------------------------------------*/
+
+@media only screen and (min-width: 1280px)  {
+
+    
+    
+    li a {
+        margin: 25px;
+        padding: 100px;
+        border-radius: 6px;
+    }
+    /* para escritorio */
+
+
+    ul li a {
+        font-family: 'Montserrat', sans-serif;
+    }
+    li a:hover {
+        background-color: #2f2859;
+        border-radius: 6px;
+        color: white !important;
+    }
+
+    a.nav-link {
+        margin-left: 25px;
+        margin-right: 20px;    
+    }
+    /* Ajustar links del menu el texto HOME/Work */
+
+    div .navbar-collapse {
+        margin-left: 60%;
+    }
+    /* Para mover las opciones de menu - texto */
+    img {
+        width: 100%;
+        margin-left: 15px;
+    }
+
+
+    .flex-item.flex-item.box-1 {
+        /* border: 1px solid green; */
+        width:  97.2%;
+        height: 200px;
+        margin-left: 26px;
+        font-family: 'Montserrat', sans-serif;
+        /*Ajustar bloque 1 de texto  */
+    }
+
+
+    .flex-item {
+        width: 18.2%;
+        height: 200px;
+        float: left;
+        margin: 45px 29px;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+
+
+    .flex-item.box-2 {
+        margin-right: 18px;
+    }
+
+    .flex-item.box-3 {
+        margin-left: 9px;
+        margin-right: 18px;
+    }
+
+    .flex-item.box-4 {
+         margin-right: 17px;
+         margin-left: 9px;
+    }
+
+    .flex-item.box-5 {
+        margin-left: 9px;
+        margin-right: 18px;
+    }
+    
+    .flex-item.box-6 {
+       margin-right: 16px;
+       margin-left: 9px;
+    }
+
+
+    .flex-item:hover {
+        background-color: rgba(255, 255, 255, 0.192);
+        transform: scale(1.1);
+        box-shadow: 3px 3px 3px rgb(124, 121, 121);
+        z-index: 2;
+    }
+
+    h4:hover {
+        color:#2f2859;
+        transform: scale(1.1);
+       
+    }
+
+    .flex-item.box-1:hover {
+        transform: none;
+        box-shadow: none;
+        z-index: none;
+    }
+
+
+
+
+    footer {
+        position: absolute;
+        bottom: 0;
+        /* line-height: 80px; */
+        /* text-align: center; */
+        min-width: 100%;
+        border: 1px solid rgb(160, 45, 45);
+        /* color: rgb(44, 43, 43); */
+        font-size: 1em;
+        /* font-family: 'Montserrat', sans-serif; */
+  
+    }
+
+  
+
+
+
+
+
+}
