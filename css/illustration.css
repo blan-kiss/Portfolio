@@ -48,7 +48,7 @@ body {
     }
 
     .navbar-light {
-        background-color: #bb9eb277;
+        background-color: #bb9eb2e0;
         /* solo background para area de navbar */
     }
 
@@ -151,6 +151,47 @@ body {
         border-radius: 30px;
         /* border: 7px solid red; */
     }
+
+    .box_C {
+        width: 100%;
+        background-color: rgba(255, 255, 255, 0.514);
+        display: flex;
+        justify-content: center;
+        border-radius: 30px;
+        /* margin-bottom: 10px; */
+        margin-top: 15px;
+        /* border: 1px solid #bb9eb2; */
+    }
+    #img_C {
+        /* border: 2px solid black; */
+        padding: 8px;
+        width: 100%;
+        margin-right: 0;
+        border-radius: 30px;
+        /* border: 7px solid red; */
+    }
+
+    .box_D {
+        width: 100%;
+        background-color: rgba(255, 255, 255, 0.514);
+        display: flex;
+        justify-content: center;
+        border-radius: 30px;
+        /* margin-bottom: 10px; */
+        margin-top: 15px;
+        /* border: 1px solid #bb9eb2; */
+    }
+    #img_D {
+        /* border: 2px solid black; */
+        padding: 8px;
+        width: 100%;
+        margin-right: 0;
+        border-radius: 30px;
+        /* border: 7px solid red; */
+    }
+
+   
+
 
 
 
