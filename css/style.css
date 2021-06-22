@@ -362,7 +362,8 @@ small {
 
     footer{
 
-        display: block;
+        display: flex;
+        justify-content: center;
         position: absolute;
         bottom: 0;
         line-height: 90px;
