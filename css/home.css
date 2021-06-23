@@ -77,7 +77,7 @@
     img {
         width: 40%;
         /* border: 1px solid orangered; */
-        margin-left: 2px;
+        margin-left: 0;
         margin-right: -7px;
         background-color: transparent;
     }
@@ -107,7 +107,8 @@
 
     .navbar-light .navbar-toggler {
         border: 5px solid #1b123c;
-        margin-right: 7px;
+        margin-right: 10px; 
+        /* ajuste del menu hamburguesa 23/junio */
     }
     
 
