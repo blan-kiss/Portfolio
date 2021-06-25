@@ -85,14 +85,15 @@
     
     
     nav .navbar {
-        /* padding-left: 16px; */
+        /* padding-left: 0; */
         /* margin-right: 20px; */
         background: transparent;
         /* border: 2px solid red; */
         /* Contenedor para imagen del logo */
     }
     .container-fluid {
-        padding-right: 15px;
+        padding-right: 10px;
+        width: 95%;
     }
 
     .navbar-nav {
@@ -125,6 +126,10 @@
         width: 100%;
     }
     /* Fijar menu navbar */
+
+    /* .container-fluid {
+        padding: 0;
+    } */
 
 
 
