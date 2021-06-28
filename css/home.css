@@ -103,10 +103,10 @@
         /* border: 2px solid red; */
         /* Contenedor para imagen del logo */
     }
-    .container-fluid {
+    /* .container-fluid {
         padding-right: 10px;
         width: 95%;
-    }
+    } */
 
     .navbar-nav {
         font-family: 'Montserrat', sans-serif;
