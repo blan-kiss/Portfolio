@@ -45,6 +45,7 @@ body {
     .navbar-nav {
         font-family: 'Montserrat', sans-serif;
         color: rgb(90, 88, 88);
+        width: 60%;
     }
 
     .navbar-light {
