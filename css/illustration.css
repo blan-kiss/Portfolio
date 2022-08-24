@@ -258,6 +258,27 @@ body {
        
     }
 
+
+    .box_H {
+        width: 100%;
+        background-color: rgba(255, 255, 255, 0.514);
+        display: flex;
+        justify-content: center;
+        border-radius: 30px;
+        border: 2px  solid #bb9eb2;
+        margin-top: 15px;
+       
+    }
+
+    #img_H {
+       
+        padding: 8px;
+        width: 100%;
+        margin-right: 0;
+        border-radius: 30px;
+       
+    }
+
    
 
 
