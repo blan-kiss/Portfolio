@@ -5,7 +5,7 @@
 }
 
 body {
-    background-image: url(../imgs/watercolor_spots.jpg);
+    /* background-image: url(../imgs/watercolor_spots.jpg); */
     background-repeat: no-repeat;
     background: cover;
     margin: 0;
@@ -22,8 +22,8 @@ body {
 
 
     #logo-baner {
-        width: 40%;
-        /* border: 1px solid orangered; */
+        width: 80%;
+       
         margin-left: 0px;
         margin-right: -7px;
         background-color: transparent;
@@ -32,11 +32,10 @@ body {
     
     
     nav .navbar {
-        /* padding-left: 16px; */
-        /* margin-right: 20px; */
+      
         background: transparent;
         width: 60%;
-        /* border: 2px solid red; */
+      
         /* Contenedor para imagen del logo */
     }
     .container-fluid {
@@ -80,13 +79,13 @@ body {
         flex-wrap: wrap;
         width: 100% auto;
         justify-content: center;
-        /* border: 2px solid greenyellow; */
+       
         min-height: 100vh;
         margin-top: 130px;
         /* Margen debido a que la barra de navegacion esta fija */
     }
     .flex-box-1 {
-        /* border: 2px solid orangered; */
+      
         display: flex;
         flex-direction: column;
         width: 90%;
@@ -101,14 +100,14 @@ body {
     .texto {
         font-family: 'Montserrat', sans-serif;
         font-size: 1em;
-        /* padding-top: 7px; */
+       
         font-variant-caps: all-petite-caps;
         margin-bottom: 0;
         color: white;
     }
 
     .gallery {
-        /* border: 1px solid black; */
+        
         margin-top: 5px;
         display: flex;
         flex-wrap: wrap;
@@ -123,17 +122,17 @@ body {
         display: flex;
         justify-content: center;
         border-radius: 30px;
-        /* margin-bottom: 10px; */
+        border: 2px  solid #bb9eb2;
         margin-top: 15px;
-        /* border: 1px solid #bb9eb2; */
+       
     }
     #img_A {
-        /* border: 2px solid black; */
+       
         padding: 8px;
         width: 100%;
         margin-right: 0;
         border-radius: 30px;
-        /* border: 7px solid red; */
+       
     }
 
     .box_B {
@@ -142,17 +141,19 @@ body {
         display: flex;
         justify-content: center;
         border-radius: 30px;
-        /* margin-bottom: 10px; */
+        border: 2px  solid #bb9eb2;
         margin-top: 15px;
-        /* border: 1px solid #bb9eb2; */
+        
     }
+
+
     #img_B {
-        /* border: 2px solid black; */
+       
         padding: 8px;
         width: 100%;
         margin-right: 0;
         border-radius: 30px;
-        /* border: 7px solid red; */
+        
     }
 
     .box_C {
@@ -161,17 +162,18 @@ body {
         display: flex;
         justify-content: center;
         border-radius: 30px;
-        /* margin-bottom: 10px; */
+        border: 2px  solid #bb9eb2;
         margin-top: 15px;
-        /* border: 1px solid #bb9eb2; */
+       
     }
+
     #img_C {
-        /* border: 2px solid black; */
+       
         padding: 8px;
         width: 100%;
         margin-right: 0;
         border-radius: 30px;
-        /* border: 7px solid red; */
+       
     }
 
     .box_D {
@@ -180,17 +182,18 @@ body {
         display: flex;
         justify-content: center;
         border-radius: 30px;
-        /* margin-bottom: 10px; */
+        border: 2px  solid #bb9eb2;
         margin-top: 15px;
-        /* border: 1px solid #bb9eb2; */
+       
     }
+
     #img_D {
-        /* border: 2px solid black; */
+       
         padding: 8px;
         width: 100%;
         margin-right: 0;
         border-radius: 30px;
-        /* border: 7px solid red; */
+       
     }
 
     .box_E {
@@ -199,17 +202,60 @@ body {
         display: flex;
         justify-content: center;
         border-radius: 30px;
-        /* margin-bottom: 10px; */
+        border: 2px  solid #bb9eb2;
         margin-top: 15px;
-        /* border: 1px solid #bb9eb2; */
+       
     }
+
     #img_E {
-        /* border: 2px solid black; */
+       
         padding: 8px;
         width: 100%;
         margin-right: 0;
         border-radius: 30px;
-        /* border: 7px solid red; */
+       
+    }
+
+    .box_F {
+        width: 100%;
+        background-color: rgba(255, 255, 255, 0.514);
+        display: flex;
+        justify-content: center;
+        border-radius: 30px;
+        border: 2px  solid #bb9eb2;
+        margin-top: 15px;
+       
+    }
+
+    #img_F {
+       
+        padding: 8px;
+        width: 100%;
+        margin-right: 0;
+        border-radius: 30px;
+       
+    }
+
+
+
+    .box_G {
+        width: 100%;
+        background-color: rgba(255, 255, 255, 0.514);
+        display: flex;
+        justify-content: center;
+        border-radius: 30px;
+        border: 2px  solid #bb9eb2;
+        margin-top: 15px;
+       
+    }
+
+    #img_G {
+       
+        padding: 8px;
+        width: 100%;
+        margin-right: 0;
+        border-radius: 30px;
+       
     }
 
    
@@ -218,13 +264,13 @@ body {
 
 
     .menu-down {
-        /* border: 2px solid violet; */
+       
         display: flex;
-        /* margin: 15px; */
+       
         flex-wrap: wrap;
         justify-content: space-around;
         border-bottom: 1px solid #2f28599d;
-        width: 95%;
+        width: 90%;
         padding-bottom: 7px;
         margin-top: 10px;
         margin-bottom: 6px;
@@ -233,7 +279,7 @@ body {
         color: rgb(133, 133, 133);
         font-size: 11px;
         padding: 3px;
-        /* align-items: center; */
+        
         text-decoration: none;
         font-family: 'Montserrat', sans-serif;
         justify-content: space-around;
@@ -248,7 +294,7 @@ body {
         line-height: 80px;
         text-align: center;
         min-width: 100%;
-        border: 2px solid blue;
+       
         color: rgb(44, 43, 43);
         font-size: 0.7em;
         font-family: 'Montserrat', sans-serif;
@@ -266,7 +312,7 @@ body {
      /* NAVBAR ------------------------------------- */
      .navbar-light {
         background-color: #bb9eb277;
-        /* border: 2px solid black */
+      
         /* solo background para area de navbar */
     }
     nav .navbar {
@@ -284,7 +330,7 @@ body {
     }
     /* Ajustar links del menu el texto HOME/Work */
     #logo-baner {
-        width: 40%;
+        width: 85%;
         margin-left: 10px;
         background-color: transparent;
     }
@@ -310,14 +356,14 @@ body {
         flex-wrap: wrap;
         width: 100% auto;
         justify-content: center;
-        /* border: 2px solid greenyellow; */
+        
         min-height: 100vh;
         margin-top: 130px;
         /* Margen debido a que la barra de navegacion esta fija */
     }
 
     .flex-box-1 {
-        /* border: 2px solid orangered; */
+       
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
@@ -333,14 +379,14 @@ body {
     .texto {
         font-family: 'Montserrat', sans-serif;
         font-size: 1em;
-        /* padding-top: 7px; */
+       
         font-variant-caps: all-petite-caps;
         margin-bottom: 0;
         color: white;
     }
 
     .gallery {
-        /* border: 1px solid black; */
+       
         margin-top: 5px;
         display: flex;
         flex-wrap: wrap;
@@ -349,97 +395,146 @@ body {
     }
 
     .box_A {
-        width: 46%;
+        width: 48%;
         background-color: rgba(255, 255, 255, 0.514);
         display: flex;
+        flex-wrap: wrap;
         justify-content: center;
         border-radius: 30px;
-        /* margin-bottom: 10px; */
+        border: 2px  solid #bb9eb2;
         margin-top: 15px;
-        /* border: 1px solid #bb9eb2; */
+        
     }
     #img_A {
-        /* border: 2px solid black; */
+       
         padding: 8px;
         width: 100%;
         margin-left: 0;
         border-radius: 30px;
-        /* border: 7px solid red; */
+       
     }
     .box_B {
-        width: 50%;
+        width: 48%;
         background-color: rgba(255, 255, 255, 0.514);
         display: flex;
+        flex-wrap: wrap;
         justify-content: center;
         border-radius: 30px;
-        /* margin-bottom: 10px; */
+        border: 2px  solid #bb9eb2;
         margin-top: 15px;
-        /* border: 1px solid #bb9eb2; */
+       
     }
     #img_B {
-        /* border: 2px solid black; */
+       
         padding: 8px;
         width: 100%;
         margin-right: 0;
         border-radius: 30px;
-        /* border: 7px solid red; */
+       
     }
 
     .box_C {
-        width: 46%;
+        width: 48%;
         background-color: rgba(255, 255, 255, 0.514);
         display: flex;
+        flex-wrap: wrap;
         justify-content: center;
         border-radius: 30px;
-        /* margin-bottom: 10px; */
+        border: 2px  solid #bb9eb2;
         margin-top: 15px;
-        /* border: 1px solid #bb9eb2; */
+       
     }
     #img_C{
-        /* border: 2px solid black; */
+       
         padding: 8px;
         width: 100%;
         margin-right: 0;
         border-radius: 30px;
-        /* border: 7px solid red; */
+       
     }
 
     .box_D {
-        width: 50%;
+        width: 48%;
         background-color: rgba(255, 255, 255, 0.514);
         display: flex;
+        flex-wrap: wrap;
         justify-content: center;
         border-radius: 30px;
-        /* margin-bottom: 10px; */
+        border: 2px  solid #bb9eb2;
         margin-top: 15px;
-        /* border: 1px solid #bb9eb2; */
+        
     }
     #img_D {
-        /* border: 2px solid black; */
+       
         padding: 8px;
         width: 100%;
         margin-right: 0;
         border-radius: 30px;
-        /* border: 7px solid red; */
+        
     }
 
     .box_E {
-        width: 46%;
+        width: 48%;
         background-color: rgba(255, 255, 255, 0.514);
         display: flex;
+        flex-wrap: wrap;
         justify-content: center;
         border-radius: 30px;
-        /* margin-bottom: 10px; */
+        border: 2px  solid #bb9eb2;
         margin-top: 15px;
-        /* border: 1px solid #bb9eb2; */
+        
     }
     #img_E {
-        /* border: 2px solid black; */
+        
         padding: 8px;
         width: 100%;
         margin-right: 0;
         border-radius: 30px;
-        /* border: 7px solid red; */
+    }    
+
+    .box_F {
+        width: 48%;
+        background-color: rgba(255, 255, 255, 0.514);
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        border-radius: 30px;
+        border: 2px  solid #bb9eb2;
+        margin-top: 15px;
+            
+        }
+
+     #img_F {
+            
+        padding: 8px;
+        width: 100%;
+        margin-right: 0;
+        border-radius: 30px;
+        }
+
+     .box_G {
+        width: 48%;
+        background-color: rgba(255, 255, 255, 0.514);
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        border-radius: 30px;
+        border: 2px  solid #bb9eb2;
+        margin-top: 15px;
+                
+    }
+    
+        #img_G {
+                
+        padding: 8px;
+        width: 100%;
+        margin-right: 0;
+        border-radius: 30px;
+        }
+ 
+
+               
+       
     }
 
 
@@ -450,13 +545,17 @@ body {
         justify-content: space-around;
         width: 90%;
         border-bottom: 1px solid #4c5384;
+       
     }
+    
     a.small-menu {
-        color: rgb(133, 133, 133);
+        color:rgb(133, 133, 133);
         font-size: 11px;
         text-decoration: none;
         font-family: 'Montserrat', sans-serif;
         padding-bottom: 10px;
+        
+        
     }
 
     /* Footer ------------------------------------ */
@@ -472,4 +571,173 @@ body {
         font-size: 0.7em;
         font-family: 'Montserrat', sans-serif;
     }
-}
+
+
+
+
+
+/* TABLET IPAD-PRO --------------------------------------------------*/
+
+@media only screen and (min-width:1024px) {
+
+    /* NAVBAR ----------------------------------------------------------- */
+    
+        li a  {
+            margin: 15px;
+       
+        }
+
+        #logo-baner {
+            width: 190%;
+            margin-left: 6px;
+        
+        }
+        /* Para mover el logo */
+    
+       
+    
+        a.nav-link {
+            margin-left: 5px;
+            margin-right: 10px;    
+        }
+        /* Ajustar links del menu el texto HOME/Work */
+    
+    
+        div .container  {
+            margin-left: 6px;
+            padding: 0;
+        }
+    
+        div .navbar-collapse {
+            margin-left: 47%;
+        }
+        /* Para mover los links de menu hacia la derecha */
+    
+    
+        /* BOXES -------------------------------------------------------- */
+    
+        .flex-container1 {
+            display:flex;
+            flex-wrap: wrap;
+            width: 100% auto;
+           
+            justify-content: center;
+           
+            
+        }
+    
+        .flex-box {
+            /* border: 2px solid orangered; */
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            flex-direction: row;  
+            width: 95%;
+            margin: 15px 8px;
+           
+        }
+    
+        .box0 {
+            background-color:#8b617f;
+            
+        }
+    
+        .text {
+            font-size: 1.8em;
+            font-variant-caps: all-petite-caps;
+            margin-bottom: 0;
+            /* padding-top: 10px; */
+        }
+    
+        .box1 {
+            width: 49%;
+            height: 400px;
+            align-items: center;
+            border: 3px solid #bb9eb2;
+           
+            
+        }
+    
+        #img1 {
+            /* border: 2px solid black; */
+            padding: 10px 0;
+            width: 60%;
+            margin-right: 7px;
+           
+        }
+    
+        .box2 {
+            width: 49%;
+            height: 400px;
+            align-items: center;
+            border: 3px solid #8b617f;
+           
+            
+        }
+    
+        #img2 {
+            /* border: 2px solid black; */
+            padding: 10px 0;
+            width: 70%;
+            margin-right: 7px;
+           
+        }
+    
+        .box3 {
+            width: 49%;
+            height: 400px;
+            align-items: center;
+            border: 3px solid #4c5384;
+           
+            
+        }
+    
+        #img3 {
+            /* border: 2px solid black; */
+            padding: 10px 0;
+            width: 60%;
+            margin-right: 7px;
+           
+        }
+    
+        .box4 {
+            width: 49%;
+            height: 400px;
+            align-items: center;
+            border: 3px solid #2f2859;
+           
+            
+        }
+    
+        #img4 {
+            /* border: 2px solid black; */
+            padding: 10px 0;
+            width: 70%;
+            margin-right: 7px;
+           
+        }
+    
+    
+    
+        .menu-down {
+            margin: 55px 8px;
+           
+        }
+    
+        a.small-menu {
+            color:rgb(133, 133, 133);
+            font-size: 21px;
+        }
+    
+        footer {
+            font-size: 1em;
+        bottom: 0;
+        display: inline-block;
+        position: relative;
+        padding-bottom: 10px;
+        }
+    
+        
+    
+    
+    }
