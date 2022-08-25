@@ -97,7 +97,7 @@ body {
     }
 
     .box0 {
-       background-color: #8b617f;
+        background-color: #8b617f;
         border-radius: 6px;
         text-align: center;
         width: 100%;
@@ -581,9 +581,9 @@ body {
 
 /* TABLET IPAD ------------------------------------------------------*/
 
- @media only screen and (min-width: 750px){
+@media only screen and (min-width: 750px){
 
-     /*NAVBAR --------------------------------------------------------  */
+    /*NAVBAR --------------------------------------------------------  */
 
     a.nav-link {
         margin-left: 38px;
@@ -1166,7 +1166,7 @@ body {
         justify-content: center;
         margin-bottom: 0;
         border-bottom: 1px solid #1b123c;
-        width: 80%;
+        width: 60%;
        
     }
 
@@ -1174,7 +1174,7 @@ body {
         color:#4c5384;
         font-size: 14px;
         padding: 20px;
-        
+       
         
     }
 
