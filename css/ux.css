@@ -1,0 +1,822 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    
+    background-repeat: no-repeat;
+    background: cover;
+    margin: 0;
+    padding: 0;
+   
+}
+
+@media (min-width: 280px) and (max-width: 480px) {
+
+
+    /* Navbar -------------------------------*/
+    #logo-baner {
+        width: 80%;
+        /* border: 1px solid orangered; */
+        margin-left: 0px;
+        margin-right: -7px;
+        background-color: transparent;
+    }
+
+    /* Recorre el menu de hamburguesa */
+    nav .navbar {
+        background: transparent;
+        width: 60%;
+    }
+
+
+   
+
+    .navbar-nav {
+        font-family: 'Montserrat', sans-serif;
+        color: rgb(90, 88, 88);
+    }
+
+    .navbar-light {
+        background-color: #bb9eb2e0;
+        /* solo background para area de navbar */
+    }
+    
+    .navbar-light .navbar-toggler {
+        border: 5px solid #1b123c;
+        margin-right: 30px;
+    }
+
+    a.nav-link {
+        margin-left: 25px;
+    
+    }
+    /* Ajustar links del menu el texto HOME/Work cuando se despliega*/
+
+
+    header {
+        position: fixed;
+        top:0;
+        width: 100%;
+    }
+    /* Fijar menu navbar */
+
+
+
+    /* Boxes */
+
+    .main-ux {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100% auto;
+        justify-content: center;
+        margin-top: 130px;
+        /* border: 1px solid black; */
+        
+    }
+
+    .ux-box {
+       
+        display: flex;
+        flex-direction: column;
+        width: 95%;
+        margin: 8px;
+    }
+
+
+    .box_ux-title {
+        background-color: #8b617f;
+        border-radius: 6px;
+        text-align: center;
+        width: 100%;
+       
+    }
+
+    .texto-1 {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 1em;
+        font-variant-caps: all-petite-caps;
+        margin-bottom: 0;
+        color: white;
+    }
+
+    .ux-work-1{
+       margin-top: 15px;
+       display: flex;
+       flex-wrap: wrap;
+       justify-content: center;
+       border: 1px solid #8b617f;
+       border-top-left-radius: 50px;
+       border-bottom-right-radius: 50px;
+       width: 100%;
+       margin-bottom: 15px;
+       
+    }
+
+    #img-nutri {
+        padding: 20px;
+        width: 100%;
+    }
+
+    .ux-work-2{
+        margin-top: 15px;
+       display: flex;
+       flex-wrap: wrap;
+       justify-content: center;
+       border: 1px solid #8b617f;
+       border-top-left-radius: 50px;
+       border-bottom-right-radius: 50px;
+       width: 100%;
+       margin-bottom: 15px;
+    }
+
+    #img-villa-2 {
+        padding: 20px;
+        width: 100%;
+    }
+
+    .ux-work-3{
+       margin-top: 15px;
+       display: flex;
+       flex-wrap: wrap;
+       justify-content: center;
+       border: 1px solid #8b617f;
+       border-top-left-radius: 50px;
+       border-bottom-right-radius: 50px;
+       width: 100%;
+       margin-bottom: 15px;
+    }
+
+    #img-read-3 {
+        padding: 20px;
+        width: 100%;
+    }
+
+
+
+
+    .menu-down {
+       
+        display: flex;
+       
+        flex-wrap: wrap;
+        justify-content: space-around;
+        border-bottom: 1px solid #2f28599d;
+        width: 90%;
+        padding-bottom: 7px;
+        margin-top: 10px;
+        margin-bottom: 6px;
+    }
+    a.small-menu {
+        color: rgb(133, 133, 133);
+        font-size: 11px;
+        padding: 3px;
+       
+        text-decoration: none;
+        font-family: 'Montserrat', sans-serif;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+
+  
+
+
+    
+
+
+    /* Footer ------------------------------------ */
+     footer {
+        display: inline-block;
+        position:relative;
+        bottom: 0;
+        line-height: 80px;
+        text-align: center;
+        min-width: 100%;
+        /* border: 2px solid blue; */
+        color: rgb(44, 43, 43);
+       font-size: 0.7em;
+       font-family: 'Montserrat', sans-serif;
+    }
+
+
+
+}
+
+
+
+
+/* For tablets: SURFACE DUO  -----------------------------*/
+
+@media only screen and (min-width: 500px) {
+    /* NAVBAR ------------------------------------- */
+    
+    .navbar-light {
+        background-color: #bb9eb2e0;
+        /* border: 2px solid black */
+        /* solo background para area de navbar */
+    }
+
+    nav .navbar {
+        background: transparent;
+    }
+    /* quitar background del cuadro donde aparace el logo parte del nav */
+
+    .navbar-light .navbar-toggler {
+        margin-right: 25px;
+        
+    }
+    /* mover menu hamburguer */
+
+
+    a.nav-link {
+        margin-left: 35px;
+        font-family: 'Montserrat', sans-serif;
+    }
+    /* Ajustar links del menu el texto HOME/Work */
+
+   
+    #logo-baner {
+        width: 80%;
+        margin-left: 10px;
+        background-color: transparent;
+    }
+
+    header {
+        position: fixed;
+        top:0;
+        width: 100%;
+    }
+    /* Fijar menu navbar */
+
+
+
+
+    /* Boxes */
+
+    .main-ux {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100% auto;
+        justify-content: center;
+        margin-top: 130px;
+        /* border: 1px solid black; */
+        
+    }
+
+    .ux-box {
+       
+        display: flex;
+        flex-wrap: wrap;
+        width: 95%;
+        margin: 8px;
+    }
+
+
+    .box_ux-title {
+        background-color: #8b617f;
+        border-radius: 6px;
+        text-align: center;
+        width: 100%;
+       
+    }
+
+    .texto-1 {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 1em;
+        font-variant-caps: all-petite-caps;
+        margin-bottom: 0;
+        color: white;
+    }
+
+    .ux-work-1{
+       margin-top: 15px;
+       display: flex;
+       flex-wrap: wrap;
+       justify-content: center;
+       border: 1px solid #8b617f;
+       border-top-left-radius: 50px;
+       border-bottom-right-radius: 50px;
+       width: 48%;
+       margin-bottom: 15px;
+       
+    }
+
+    #img-nutri {
+        padding: 20px;
+        width: 100%;
+    }
+
+    .ux-work-2{
+       margin-top: 15px;
+       display: flex;
+       flex-wrap: wrap;
+       justify-content: center;
+       border: 1px solid #8b617f;
+       border-top-left-radius: 50px;
+       border-bottom-right-radius: 50px;
+       width: 48%;
+       margin-bottom: 15px;
+       margin-left: 20px;
+    }
+
+    #img-villa-2 {
+        padding: 20px;
+        width: 100%;
+    }
+
+    .ux-work-3{
+       margin-top: 15px;
+       display: flex;
+       flex-wrap: wrap;
+       justify-content: center;
+       border: 1px solid #8b617f;
+       border-top-left-radius: 50px;
+       border-bottom-right-radius: 50px;
+       width: 48%;
+       margin-bottom: 15px;
+    }
+
+    #img-read-3 {
+        padding: 20px;
+        width: 100%;
+    }
+
+
+
+
+    .menu-down {
+       
+        display: flex;
+       
+        flex-wrap: wrap;
+        justify-content: space-around;
+        border-bottom: 1px solid #2f28599d;
+        width: 90%;
+        padding-bottom: 7px;
+        margin-top: 10px;
+        margin-bottom: 6px;
+    }
+    a.small-menu {
+        color: rgb(133, 133, 133);
+        font-size: 11px;
+        padding: 3px;
+       
+        text-decoration: none;
+        font-family: 'Montserrat', sans-serif;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+
+  
+
+
+    /* Footer ------------------------------------ */
+     footer {
+        display: inline-block;
+        position:relative;
+        bottom: 0;
+        line-height: 80px;
+        text-align: center;
+        min-width: 100%;
+        /* border: 2px solid blue; */
+        color: rgb(44, 43, 43);
+       font-size: 0.7em;
+       font-family: 'Montserrat', sans-serif;
+    }
+
+
+}
+
+
+
+/* TABLET IPAD ------------------------------------------------------*/
+
+@media only screen and (min-width: 750px){
+
+    /*NAVBAR --------------------------------------------------------  */
+
+    a.nav-link {
+        margin-left: 38px;
+        
+    }
+    /* Ajustar links del menu el texto HOME/Work */
+
+    
+    #logo-baner {
+        width: 85%;
+        margin-left: 20px;
+        margin-right: -7px;
+        /* Logo brand */
+
+    }
+
+
+
+
+    /* Boxes */
+
+    .main-ux {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100% auto;
+        justify-content: center;
+        margin-top: 130px;
+        /* border: 1px solid black; */
+        
+    }
+
+    .ux-box {
+       
+        display: flex;
+        flex-wrap: wrap;
+        width: 95%;
+        margin: 8px;
+    }
+
+
+    .box_ux-title {
+        background-color: #8b617f;
+        border-radius: 6px;
+        text-align: center;
+        width: 100%;
+       
+    }
+
+    .texto-1 {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 1.4em;
+        font-variant-caps: all-petite-caps;
+        margin-bottom: 0;
+        color: white;
+    }
+
+    .ux-work-1{
+       margin-top: 15px;
+       display: flex;
+       flex-wrap: wrap;
+       justify-content: center;
+       border: 1px solid #8b617f;
+       border-top-left-radius: 50px;
+       border-bottom-right-radius: 50px;
+       width: 48%;
+       margin-bottom: 15px;
+       
+    }
+
+    #img-nutri {
+        padding: 20px;
+        width: 100%;
+    }
+
+    .ux-work-2{
+       margin-top: 15px;
+       display: flex;
+       flex-wrap: wrap;
+       justify-content: center;
+       border: 1px solid #8b617f;
+       border-top-left-radius: 50px;
+       border-bottom-right-radius: 50px;
+       width: 48%;
+       margin-bottom: 15px;
+       margin-left: 20px;
+    }
+
+    #img-villa-2 {
+        padding: 20px;
+        width: 100%;
+    }
+
+    .ux-work-3{
+       margin-top: 15px;
+       display: flex;
+       flex-wrap: wrap;
+       justify-content: center;
+       border: 1px solid #8b617f;
+       border-top-left-radius: 50px;
+       border-bottom-right-radius: 50px;
+       width: 48%;
+       margin-bottom: 15px;
+    }
+
+    #img-read-3 {
+        padding: 20px;
+        width: 100%;
+    }
+
+
+
+
+    .menu-down {
+        margin: 35px 8px;
+    }
+
+    a.small-menu {
+        color:rgb(133, 133, 133);
+        font-size: 15px;
+    }
+
+  
+
+
+    /* Footer ------------------------------------ */
+    footer {
+        font-size: .9em;
+        bottom: 0;
+        display: inline-block;
+    }
+
+
+
+}
+
+
+
+
+/* TABLET IPAD-PRO --------------------------------------------------*/
+
+@media only screen and (min-width:1024px) {
+
+    /* NAVBAR ----------------------------------------------------------- */
+
+    li a  {
+        margin: 15px;
+   
+    }
+
+    #logo-baner {
+        width: 190%;
+        margin-left: 6px;
+    
+    }
+    /* Para mover el logo */
+
+    a.nav-link {
+        margin-left: 5px;
+        margin-right: 10px;    
+    }
+    /* Ajustar links del menu el texto HOME/Work */
+
+
+    div .container  {
+        margin-left: 6px;
+        padding: 0;
+    }
+
+    div .navbar-collapse {
+        margin-left: 47%;
+    }
+    /* Para mover los links de menu hacia la derecha */
+
+
+    header {
+        position: fixed;
+        top:0;
+        width: 100%;
+    }
+    /* Fijar el menu */
+
+    .navbar-light {
+        background-color: #bb9eb2e0;
+        /* solo background para area de navbar */
+    }
+
+
+
+    .texto-1 {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 1.8em;
+        font-variant-caps: all-petite-caps;
+        margin-bottom: 0;
+        color: white;
+    }
+
+
+
+
+    .menu-down {
+        margin: 55px 8px;
+       
+    }
+
+    a.small-menu {
+        color:rgb(133, 133, 133);
+        font-size: 21px;
+        
+    }
+
+    small {
+        padding-bottom: 40px;
+    }
+
+    footer {
+        font-size: 1em;
+        bottom: 0;
+        display: inline-block;
+        position: relative;
+        padding-bottom: 10px;
+    }
+
+
+}
+
+
+
+
+/* DESKTOP -------------------------------------------*/
+
+
+@media only screen and (min-width: 1280px) {
+
+    /* NAVBAR ----------------------------------------- */
+
+     
+    li a {
+        margin: 25px;
+        padding: 100px;
+        border-radius: 6px;
+    }
+    /* para escritorio */
+
+
+    ul li a {
+        font-family: 'Montserrat', sans-serif;
+    }
+    li a:hover {
+        background-color: #2f2859;
+        border-radius: 6px;
+        color: white !important;
+    }
+
+    a.nav-link {
+        margin-left: 25px;
+        margin-right: 20px;    
+    }
+    /* Ajustar links del menu el texto HOME/Work */
+
+    div .navbar-collapse {
+        margin-left: 60%;
+    }
+    /* Para mover las opciones de menu - texto */
+   
+    #logo-baner {
+        width: 100%;
+        margin-left: 111px;
+    }
+
+    /* Boxes */
+
+    .main-ux {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100% auto;
+        justify-content: center;
+        margin-top: 130px;
+        /* border: 1px solid black; */
+        
+    }
+
+    .ux-box {
+        justify-content: space-between;
+        display: flex;
+        flex-wrap: wrap;
+        width: 80%;
+        margin: 25px 8px;
+    }
+
+
+    .box_ux-title {
+        background-color: #8b617f;
+        border-radius: 6px;
+        text-align: center;
+        width: 100%;
+       
+    }
+
+    .texto-1 {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 20px;
+        font-variant-caps: all-petite-caps;
+        margin-bottom: 0;
+        color: white;
+    }
+
+    .ux-work-1{
+       margin-top: 15px;
+       display: flex;
+       flex-wrap: wrap;
+       justify-content: center;
+       border: 1px solid #8b617f;
+       border-top-left-radius: 50px;
+       border-bottom-right-radius: 50px;
+       width: 25%;
+      
+       
+    }
+
+    #img-nutri {
+        padding: 20px;
+        width: 100%;
+    }
+
+    #img-nutri:hover {
+        opacity: 0.4;
+    }
+
+    .ux-work-2{
+       margin-top: 15px;
+       display: flex;
+       flex-wrap: wrap;
+       justify-content: center;
+       border: 1px solid #8b617f;
+       border-top-left-radius: 50px;
+       border-bottom-right-radius: 50px;
+       width: 25%;
+       margin-bottom: 15px;
+       margin-left: 23px;
+       margin-right: 23px;
+    }
+
+    #img-villa-2 {
+        padding: 20px;
+        width: 100%;
+    }
+
+    #img-villa-2:hover {
+        opacity: 0.4;
+    }
+
+    .ux-work-3{
+       margin-top: 15px;
+       display: flex;
+       flex-wrap: wrap;
+       justify-content: center;
+       border: 1px solid #8b617f;
+       border-top-left-radius: 50px;
+       border-bottom-right-radius: 50px;
+       width: 25%;
+       margin-bottom: 15px;
+    }
+
+    #img-read-3 {
+        padding: 20px;
+        width: 100%;
+    }
+
+    #img-read-3:hover {
+        opacity: 0.4;
+    }
+
+
+
+
+    .menu-down {
+        margin: 35px 8px;
+    }
+
+    a.small-menu {
+        color:rgb(133, 133, 133);
+        font-size: 15px;
+    }
+
+  
+
+    .menu-down {
+        /* border:2px solid purple; */
+        margin-top: 60px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-bottom: 0;
+        border-bottom: 1px solid #1b123c;
+        width: 60%;
+        /* background-color: #8b617f73; */
+    }
+
+    a.small-menu {
+        color:#4c5384;
+        font-size: 14px;
+        padding: 20px;
+        
+        
+    }
+
+    a.small-menu:hover {
+        /* background-color: #2f285975; */
+        color:#1b123c;
+        border-top-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+        font-size: 14px;
+        
+    }
+
+    footer {
+        font-size: 14px;
+    }
+
+
+
+
+
+}
