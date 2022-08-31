@@ -280,6 +280,188 @@ body {
         align-items: center;
     }
 
+    .fourth-image{
+        width: 100%;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    #persona-2 {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .nine-text-block {
+        display: flex;
+        flex-wrap: wrap;
+        width: 95%;
+        margin-left: 8px;
+        margin-top: 35px;
+    }
+
+
+    .subt-9 {
+        font-size: 14px;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 600;
+        color: #565454;
+    }
+
+    .ten-text-block {
+        display: flex;
+        flex-wrap: wrap;
+        width: 95%;
+        margin-left: 8px;
+        margin-top: 18px;
+    }
+
+
+    .subt-10 {
+        font-size: 12px;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 600;
+        color: #565454;
+    }
+
+
+    .five-image{
+        width: 100%;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    #wireframe {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .eleven-text-block {
+        display: flex;
+        flex-wrap: wrap;
+        width: 95%;
+        margin-left: 8px;
+        margin-top: 18px;
+    }
+
+
+    .subt-11 {
+        font-size: 12px;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 600;
+        color: #565454;
+    }
+
+    .six-image{
+        width: 100%;
+        margin-top: 30px;
+        margin-bottom: 10px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    #tablet-villa {
+        width: 50%;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footer-tablet-villa {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 95%;
+    }
+
+
+    .tablet-footer {
+        font-size: 12px;
+        font-family: 'Montserrat', sans-serif;
+        color: #565454;
+    }
+
+    .seven-image{
+        width: 100%;
+        margin-top: 30px;
+        margin-bottom: 10px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    #desktop-villa {
+        width: 55%;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footer-desktop-villa {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 95%;
+    }
+
+
+    .desktop-footer {
+        font-size: 12px;
+        font-family: 'Montserrat', sans-serif;
+        color: #565454;
+    }
+
+
+    .sitemap-text-block {
+        display: flex;
+        flex-wrap: wrap;
+        width: 95%;
+        margin-left: 8px;
+        margin-top: 30px;
+    }
+
+
+    .subt-sitemap {
+        font-size: 12px;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 600;
+        color: #565454;
+    }
+
+
+    .sitemap-image{
+        width: 100%;
+        margin-top: 30px;
+        margin-bottom: 10px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    #sitemap-villa {
+        width: 75%;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 15px;
+    }
+
 
 
     
