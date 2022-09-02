@@ -2681,7 +2681,25 @@ body {
         margin-left: 0;
     }
 
-     /* Footer ------------------------------------ */
+    .back-ux-box {
+       
+       width: 50%;
+       
+    }
+
+    .back:hover {
+       
+        background-color: #bb9eb2e0;
+        color: #fff;
+    }
+
+    .view-figma:hover {
+       
+        background-color: #bb9eb2e0;
+        color: #fff;
+    }
+
+    /* Footer ------------------------------------ */
      footer {
        font-size: 14px;
        margin-bottom: 30px;
