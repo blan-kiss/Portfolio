@@ -203,7 +203,7 @@ body {
     }
 
     #img5 {
-        /* border: 2px solid black; */
+        
         padding: 15px 0;
         width: 70%;
        
@@ -222,7 +222,7 @@ body {
     }
 
     #img6 {
-        /* border: 2px solid black; */
+       
         padding: 15px 0;
         width: 90%;
        
@@ -242,7 +242,7 @@ body {
     }
 
     #img7 {
-        /* border: 2px solid black; */
+       
         padding: 15px 0;
         width: 90%;
         
@@ -511,7 +511,7 @@ body {
         /* border: 2px solid black; */
         padding: 10px 0;
         width: 90%;
-       
+        margin: 0;
     }
 
     .box7 {
@@ -528,10 +528,10 @@ body {
     }
 
     #img7 {
-        /* border: 2px solid black; */
+       
         padding: 10px 0;
-        width: 90%;
-        
+        width: 92%;
+        margin: 0;
     }
 
 
@@ -710,9 +710,9 @@ body {
     }
 
     #img5 {
-        /* border: 2px solid black; */
-        padding: 10px 0;
-        width: 56% ;
+       
+       
+        width: 75% ;
         margin-right: 15px;
     }
 
@@ -726,9 +726,9 @@ body {
     }
 
     #img6 {
-        /* border: 2px solid black; */
-        padding: 10px 0;
-        width: 61% ;
+       
+       
+        width: 80% ;
         margin-right: 15px;
     }
 
@@ -741,10 +741,10 @@ body {
     }
 
     #img7 {
-        /* border: 2px solid black; */
-        padding: 10px 0;
+        
+      
         width: 74% ;
-        margin-right: 15px;
+        margin: 0;
     }
 
 
@@ -913,6 +913,53 @@ body {
     }
 
 
+    .box5 {
+        width: 49%;
+        height: 350px;
+        align-items: center;
+        border:2px solid #2f2859;
+        
+    }
+
+    #img5 {
+        /* border: 2px solid black; */
+        padding: 10px 0;
+        width: 55% ;
+        margin-right: 15px;
+    }
+
+    .box6 {
+        width: 49%;
+        height: 350px;
+        align-items: center;
+        border:2px solid #2f2859;
+        
+    }
+
+    #img6 {
+       
+        padding: 10px 0;
+        width: 60% ;
+        margin-right: 15px;
+    }
+
+
+    .box7 {
+        width: 49%;
+        height: 350px;
+        align-items: center;
+        border:2px solid #2f2859;
+        
+    }
+
+    #img7 {
+        
+      
+        width: 57% ;
+        margin: 0;
+    }
+
+
 
     .menu-down {
         margin: 55px 8px;
@@ -1049,25 +1096,25 @@ body {
 
 
     #img5 {
-        /* border: 2px solid black; */
-        padding: 10px 0;
+        
+       
         width: 75%;
        
     }
 
 
     #img6 {
-        /* border: 2px solid black; */
-        padding: 10px 0;
-        width: 80%;
+        
+       
+        width: 82%;
         margin-right: 0px;
     }
 
     #img7 {
-        /* border: 2px solid black; */
-        padding: 10px 0;
-        width: 87%;
-        margin-right: 0px;
+       
+       
+        width: 77%;
+       
     }
 
 
