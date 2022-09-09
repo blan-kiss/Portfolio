@@ -332,9 +332,10 @@ body {
     /* Ajustar links del menu el texto HOME/Work */
 
    
-    img {
-        width: 80%;
-        margin-left: 10px;
+    #logo-baner {
+        width: 85%;
+        margin-left: 20px;
+        margin-right: -7px;
         background-color: transparent;
     }
 
@@ -696,7 +697,7 @@ body {
     #img4 {
         /* border: 2px solid black; */
         padding: 10px 0;
-        width: 80% auto;
+        width: 78%;
         margin-right: 15px;
     }
 
@@ -710,9 +711,7 @@ body {
     }
 
     #img5 {
-       
-       
-        width: 75% ;
+        width: 62% ;
         margin-right: 15px;
     }
 
@@ -726,9 +725,7 @@ body {
     }
 
     #img6 {
-       
-       
-        width: 80% ;
+        width: 68% ;
         margin-right: 15px;
     }
 
@@ -741,9 +738,7 @@ body {
     }
 
     #img7 {
-        
-      
-        width: 74% ;
+        width: 64% ;
         margin: 0;
     }
 
