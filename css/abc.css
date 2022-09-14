@@ -1,0 +1,112 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    
+    background-repeat: no-repeat;
+    background: cover;
+    margin: 0;
+    padding: 0;
+   
+}
+
+@media (min-width: 280px) and (max-width: 480px)  {
+
+     /* Navbar -------------------------------*/
+     #logo-baner {
+        width: 80%;
+        /* border: 1px solid orangered; */
+        margin-left: 0px;
+        margin-right: -7px;
+        background-color: transparent;
+    }
+
+    /* Recorre el menu de hamburguesa */
+    nav .navbar {
+        background: transparent;
+        width: 60%;
+    }
+
+
+    .navbar-nav {
+        font-family: 'Montserrat', sans-serif;
+        color: rgb(90, 88, 88);
+    }
+
+    .navbar-light {
+        background-color: #bb9eb2e0;
+        /* solo background para area de navbar */
+    }
+    
+    .navbar-light .navbar-toggler {
+        border: 5px solid #1b123c;
+        margin-right: 30px;
+    }
+
+    a.nav-link {
+        margin-left: 25px;
+    
+    }
+    /* Ajustar links del menu el texto HOME/Work cuando se despliega*/
+
+
+    header {
+        position: fixed;
+        top:0;
+        width: 100%;
+    }
+    /* Fijar menu navbar */
+
+
+    /* BOXES  -------------------------- */
+
+    .main-abc {
+        /* border: 2px solid red; */
+        display: flex;
+        flex-wrap: wrap;
+        width: 100% auto;
+        justify-content: center;
+        margin-top: 130px;
+    }
+
+    .container-abc {
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        margin: 8px;
+    }
+
+    .block-title-abc {
+        background-color: #8b617f;
+        border-radius: 6px;
+        text-align: center;
+        width: 100%;
+    }
+
+    .title-abc {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 1em;
+        font-variant-caps: all-petite-caps;
+        margin-bottom: 0;
+        color: white;
+    }
+
+    .iphone-image-abc{
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 30px;
+        width: 100%;
+    }
+
+    #iphone-abc {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}

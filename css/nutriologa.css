@@ -77,6 +77,19 @@ body {
         margin-top: 130px;
     }
 
+    .box-ux-case {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-top: 30px;
+    }
+
+    .ux-text  {
+        font-size: 10px;
+        font-family: 'Montserrat', sans-serif;
+        color: #565454;
+    }
+
     .content-nutriologa {
         display: flex;
         flex-direction: column;
@@ -831,9 +844,8 @@ body {
     }
     /* Ajustar links del menu el texto HOME/Work */
     #logo-baner {
-        width: 85%;
-        margin-left: 20px;
-        margin-right: -7px;
+        width: 80%;
+        margin-left: 10px;
        
     }
 
@@ -853,7 +865,7 @@ body {
 
     /* BOXES ---------------------------- */
 
-    .main-box-nutriologa{
+    .main-box-nutriologa {
         /* border: 2px solid red; */
         display: flex;
         flex-wrap: wrap;
@@ -862,12 +874,25 @@ body {
         margin-top: 130px;
     }
 
+    .box-ux-case {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-top: 30px;
+    }
+
+    .ux-text  {
+        font-size: 10px;
+        font-family: 'Montserrat', sans-serif;
+        color: #565454;
+    }
+
     .content-nutriologa {
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
         width: 95%;
-        margin: 15px 8px;
+        margin: 8px;
     }
 
     .block-Nutricion {
@@ -879,7 +904,7 @@ body {
 
     .main-title {
         font-family: 'Montserrat', sans-serif;
-        font-size: 1.4em;
+        font-size: 1em;
         font-variant-caps: all-petite-caps;
         margin-bottom: 0;
         color: white;
@@ -1559,19 +1584,11 @@ body {
         text-decoration: none;
         color: #7b7979;
         border: 1px solid #2f2859;
-        width: 30%;
+        width: 20%;
         text-align: center;
         padding: 5px;
         border-radius: 5px;
     }
-
-
-
-
-
-
-
-
 
 
 
@@ -1591,4 +1608,515 @@ body {
     }
 
 
+}
+
+
+
+
+
+
+/* TABLET IPAD ------------------------------------------------------*/
+
+@media only screen and (min-width: 750px) {
+
+    /*NAVBAR --------------------------------------------------------  */
+
+    a.nav-link {
+        margin-left: 38px;
+        
+    }
+    /* Ajustar links del menu el texto HOME/Work */
+
+    
+    #logo-baner {
+        width: 85%;
+        margin-left: 20px;
+        margin-right: -7px;
+        /* Logo brand */
+    } 
+
+    header {
+        position: fixed;
+        top:0;
+        width: 100%;
+    }
+    /* Fijar menu navbar */
+ 
+    .navbar-light {
+         background-color: #bb9eb2e0;
+         /* solo background para area de navbar */
+    
+    }
+
+    /* BOXES ------------- */
+
+
+    .content-nutriologa {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 95%;
+        margin: 15px 8px;
+    }
+
+    .main-title {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 1.4em;
+        font-variant-caps: all-petite-caps;
+        margin-bottom: 0;
+        color: white;
+    }
+
+
+     /* Footer ------------------ */
+     footer {
+        display: inline-block;
+        position:relative;
+        bottom: 0;
+        line-height: 80px;
+        text-align: center;
+        min-width: 100%;
+        color: rgb(44, 43, 43);
+       font-size: 0.9em;
+       font-family: 'Montserrat', sans-serif;
+    }
+    
+
+}
+
+
+
+
+/* TABLET IPAD-PRO --------------------------------------------------*/
+
+@media only screen and (min-width:1024px)  {
+
+    /* NAVBAR ----------------------------------------------------------- */
+
+    li a  {
+        margin: 15px;
+   
+    }
+
+    #logo-baner {
+        width: 85%;
+        margin-left: 20px;
+        margin-right: -7px;
+        /* Logo brand */
+    }
+
+    #logo-baner {
+        width: 190%;
+        margin-left: 6px;
+    
+    }
+    /* Para mover el logo */
+
+    a.nav-link {
+        margin-left: 5px;
+        margin-right: 10px;    
+    }
+    /* Ajustar links del menu el texto HOME/Work */
+
+
+    div .container  {
+        margin-left: 6px;
+        padding: 0;
+    }
+
+    div .navbar-collapse {
+        margin-left: 47%;
+    }
+    /* Para mover los links de menu hacia la derecha */
+
+
+    header {
+        position: fixed;
+        top:0;
+        width: 100%;
+    }
+    /* Fijar el menu */
+
+    .navbar-light {
+        background-color: #bb9eb2e0;
+        /* solo background para area de navbar */
+    }
+
+
+    .main-title {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 1.8em;
+        font-variant-caps: all-petite-caps;
+        margin-bottom: 0;
+        color: white;
+    }
+
+    .subt-1 {
+        font-size: 13px;
+    }
+
+    .text-1 {
+        font-size: 13px;
+        
+    }
+
+    .subt-goal {
+        font-size: 13px;
+    }
+
+    .subt-role {
+        font-size: 13px;    
+    }
+
+    .subt-role {
+        font-size: 13px;
+        margin-right: 15px;
+    }
+
+    .text-role {
+        font-size: 13px;
+    }
+
+
+    .subt-research {
+        font-size: 15px;
+    }
+
+
+    .subt-target {
+        font-size: 13px;
+    }
+
+    .text-target {
+        font-size: 13px;
+    }
+
+    .subt-initial-design {
+        font-size: 15px;
+    }
+
+    .subt-persona1 {
+        font-size: 13px;
+    }
+
+    .subt-wireframes {
+        font-size: 15px;
+    }
+
+    .subt-paper-wireframe {
+        font-size: 13px;
+    }
+
+    .block-digital-wire {
+        margin-top: 60px;
+    }
+  
+    .subt-digital-wire {
+        font-size: 13px;
+    }
+
+    .block-sitemap {
+        margin-top: 80px;
+    }
+
+    .subt-sitemap {
+        font-size: 13px;
+    }
+
+    .block-screenflow-nutri {
+        margin-top: 111px;
+    }
+
+    .subt-screenflow-nutri {
+        font-size: 15px;
+    }
+
+    .lo-fi-nutri {
+        font-size: 13px;
+    }
+
+    .block-test-nutri {
+        margin-top: 111px;
+    }
+
+
+    .subt-test-nutri {
+        font-size: 15px;
+    }
+
+    .block-userTest {
+       margin-bottom: 40px;
+    }
+
+
+    li.list-userTest  {
+        font-size: 13px;
+    }
+
+    .box-img-testResult-1{
+        width: 40%;
+    }
+
+    .block-before-nutri{
+        margin-top: 20px;
+    
+    }
+
+
+    .before-nutri {
+        font-size: 12px;
+        font-family: 'Montserrat', sans-serif;
+        color: #565454;
+    }
+
+    .block-test-nutri-1{
+        margin-top: 15px;
+    }
+
+    .after-nutri {
+        font-size: 12px;
+    }
+
+
+    .conclutions-nutri  {
+        font-size: 13px;
+    }
+
+    .block-conclution-nutri {
+        width: 90%;  
+    }
+
+    .hi-fi-nutri {
+        font-size: 13px;
+    }
+
+    .box-hifi-img-nutri {
+        width: 80%;
+    }
+
+    .text-mock-nutri {
+        font-size: 15px;
+    }
+
+    .box-mock-nutri-img {
+        width: 80%;
+    }
+
+    .Figma-nutri-block {
+       width: 40%;
+    }
+
+    .view-figma-nutri {
+        font-size: 11px;
+    }
+
+    .learn-nutri-box {
+        margin-top: 80px;
+    }
+
+
+    .learn-nutri {
+        font-size: 13px;
+    }
+
+   
+    .whatlearn-nutri {
+        font-size: 13px;
+        
+    }
+
+    .next-nutri {
+        font-size: 13px;
+    }
+
+    li.next-list-nutri {
+        font-size: 13px;
+       
+    }
+
+    .back {
+        font-size: 11px;
+    }
+
+
+
+
+    /* Footer ------------------------------------ */
+
+    footer {
+       font-size: 1em;
+       
+    }
+
+
+}
+
+
+
+
+/* DESKTOP -------------------------------------------*/
+
+
+@media only screen and (min-width: 1280px) {
+
+     /* NAVBAR ----------------------------------------- */
+ 
+     li a {
+        margin: 25px;
+        padding: 100px;
+        border-radius: 6px;
+    }
+    /* para escritorio */
+
+
+    ul li a {
+        font-family: 'Montserrat', sans-serif;
+    }
+    li a:hover {
+        background-color: #2f2859;
+        border-radius: 6px;
+        color: white !important;
+    }
+
+    a.nav-link {
+        margin-left: 25px;
+        margin-right: 20px;    
+    }
+    /* Ajustar links del menu el texto HOME/Work */
+
+    div .navbar-collapse {
+        margin-left: 60%;
+    }
+    /* Para mover las opciones de menu - texto */
+    #logo-baner {
+        width: 100%;
+        margin-left: 111px;
+    }
+
+    /* ----------------------------------------- */
+   header {
+       position: fixed;
+       top:0;
+       width: 100%;
+   }
+   /* Fijar menu navbar */
+
+   .navbar-light {
+        background-color: #bb9eb2e0;
+        /* solo background para area de navbar */
+   
+    }
+
+
+
+
+    /* BOXES ----------------------- */
+
+    .content-nutriologa {
+        width: 80%;
+        margin: 25px 8px;
+    }
+
+    .main-title {
+        font-size: 20px;
+    }
+
+    .iphone-image {
+        width: 70%;
+    }
+
+    .block-research {
+        margin-top: 70px;
+    }
+
+    .subt-target {
+        margin-right: 15px;
+    }
+
+    .block-initial-design {
+        margin-top: 70px;
+    }
+
+    .box-img-persona{
+        width: 70%;
+    }
+
+    .box-img-persona2{
+        width: 70%;
+    }
+
+    .block-wireframes {
+        margin-top: 100px;
+    }
+
+    .box-img-wirepaper{
+        width: 60%;
+    }
+
+    .box-img-digital-wire {
+        width: 40%;
+        margin-top: 50px;
+    }
+
+    .box-img-digital-wire-1 {
+        width: 40%;
+        margin-top: 55px;
+    }
+
+    .box-img-sitemap{
+        width: 80%;
+    }
+
+
+    .block-screenflow-nutri {
+        margin-top: 150px;
+    }
+
+    .block-test-nutri {
+        margin-top: 150px;
+    }
+
+    .box-img-testResult{
+        width: 30%;
+    }
+
+    .box-img-testResult-1{
+        width: 30%;
+    }
+
+    .block-mockup-nutri {
+        margin-top: 140px;
+    }
+
+    .box-mock-nutri-img {
+        width: 85%;
+    }
+
+    .learning-nutri-box {
+        justify-content: initial;
+    }
+
+
+    .back-ux-box {
+        width: 50%;
+    }
+
+    .back:hover {
+       
+        background-color: #bb9eb2e0;
+        color: #fff;
+    }
+
+    .view-figma-nutri:hover {
+       
+        background-color: #bb9eb2e0;
+        color: #fff;
+    }
+
+    /* Footer ------------------------------------ */
+     footer {
+       font-size: 14px;
+       margin-bottom: 30px;
+       
+    }
 }

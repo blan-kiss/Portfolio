@@ -208,6 +208,50 @@
 @media only screen and (min-width: 500px) {
 
 
+    /* NAVBAR ------------------------------------- */
+    
+    .navbar-light {
+        background-color: #bb9eb2e0;
+        /* border: 2px solid black */
+        /* solo background para area de navbar */
+    }
+
+    nav .navbar {
+        background: transparent;
+    }
+    /* quitar background del cuadro donde aparace el logo parte del nav */
+
+    .navbar-light .navbar-toggler {
+        margin-right: 25px;
+        
+    }
+    /* mover menu hamburguer */
+
+
+    a.nav-link {
+        margin-left: 35px;
+        font-family: 'Montserrat', sans-serif;
+    }
+    /* Ajustar links del menu el texto HOME/Work */
+
+   
+
+
+    #logo-baner {
+        width: 80%;
+        margin-left: 10px;
+        background-color: transparent;
+    }
+
+
+    header {
+        position: fixed;
+        top:0;
+        width: 100%;
+    }
+    /* Fijar menu navbar */
+
+
      .flex-item.flex-item.box-1 {
         /* border: 1px solid green; */
         width: 95%;
@@ -283,48 +327,7 @@
 
 
 
-    /* NAVBAR ------------------------------------- */
     
-    .navbar-light {
-        background-color: #bb9eb2e0;
-        /* border: 2px solid black */
-        /* solo background para area de navbar */
-    }
-
-    nav .navbar {
-        background: transparent;
-    }
-    /* quitar background del cuadro donde aparace el logo parte del nav */
-
-    .navbar-light .navbar-toggler {
-        margin-right: 25px;
-        
-    }
-    /* mover menu hamburguer */
-
-
-    a.nav-link {
-        margin-left: 35px;
-        font-family: 'Montserrat', sans-serif;
-    }
-    /* Ajustar links del menu el texto HOME/Work */
-
-   
-
-
-    img {
-        width: 80%;
-        margin-left: 10px;
-        background-color: transparent;
-    }
-
-
-    header {
-        position: fixed;
-        top:0;
-        width: 100%;
-    }
-    /* Fijar menu navbar */
 
 
 
@@ -389,7 +392,7 @@
     
     
 
-    img {
+    #logo-baner {
         width: 85%;
         margin-left: 20px;
         margin-right: -7px;
@@ -420,7 +423,7 @@
        
     }
     
-    img {
+    #logo-baner {
         width: 190%;
         margin-left: 6px;
         
@@ -521,7 +524,7 @@
         margin-left: 60%;
     }
     /* Para mover las opciones de menu - texto */
-    img {
+    #logo-baner {
         width: 100%;
         margin-left: 111px;
     }

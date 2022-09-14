@@ -75,6 +75,8 @@ body {
         margin-top: 130px;
     }
 
+   
+
     .content-villa {
        
         display: flex;
@@ -936,7 +938,7 @@ body {
         flex-wrap: wrap;
         justify-content: center;
         width: 95%;
-        margin: 15px 8px;
+        margin: 8px;
     }
 
     .text-Villa-Mia {
@@ -1729,7 +1731,7 @@ body {
         text-align: center;
         min-width: 100%;
         color: rgb(44, 43, 43);
-       font-size: 0.9em;
+       font-size: 0.7em;
        font-family: 'Montserrat', sans-serif;
     }
 }
@@ -1738,9 +1740,9 @@ body {
 /* TABLET IPAD ------------------------------------------------------*/
 
 @media only screen and (min-width: 750px) {
-     /*NAVBAR --------------------------------------------------------  */
+    /*NAVBAR --------------------------------------------------------  */
 
-     a.nav-link {
+    a.nav-link {
         margin-left: 38px;
         
     }
@@ -1781,9 +1783,9 @@ body {
 
 @media only screen and (min-width:1024px) {
 
-     /* NAVBAR ----------------------------------------------------------- */
+    /* NAVBAR ----------------------------------------------------------- */
 
-     li a  {
+    li a  {
         margin: 15px;
    
     }
@@ -2140,7 +2142,7 @@ body {
     .conclutions-footer-box {
         display: flex;
         flex-wrap: wrap;
-        width: 95%;
+        width: 90%;
         margin-left: 8px;
         margin-top: 50px;
         justify-content: center;
@@ -2395,6 +2397,12 @@ body {
    
     }
 
+
+
+    
+
+   /* BOXES --------------- */
+
     .text-Villa-Mia {
         background-color: #8b617f;
         border-radius: 6px;
@@ -2411,7 +2419,7 @@ body {
     }
 
 
-    /* BOXES --------------- */
+   
 
     .content-villa {
         display: flex;
