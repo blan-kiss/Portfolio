@@ -613,11 +613,16 @@
 
 
 
+
+
+
     footer {
+        display: inline-block;
         position: absolute;
         bottom: 0;
+        line-height: 80px;
+        text-align: center;
         min-width: 100%;
-        font-size: 1em;
        
   
     }

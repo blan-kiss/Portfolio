@@ -490,7 +490,8 @@ body {
         flex-wrap: wrap;
         width: 95%;
         margin-left: 8px;
-        margin-top: 60px;
+        margin-top: 30px;
+        justify-content: center;
     }
 
 
@@ -523,8 +524,8 @@ body {
         flex-wrap: wrap;
         width: 95%;
         margin-left: 8px;
-        margin-top: 10px;
-        justify-content: center;
+        margin-top: 40px;
+       
     }
 
 
@@ -2025,6 +2026,15 @@ body {
         width: 70%;
     }
 
+
+    .box-ux-case {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-top: 30px;
+        width: 100%;
+    }
+
     .block-research {
         margin-top: 70px;
     }
@@ -2038,11 +2048,12 @@ body {
     }
 
     .box-img-persona{
-        width: 70%;
+        width: 48%;
+        margin-right: 20px;
     }
 
     .box-img-persona2{
-        width: 70%;
+        width: 48%;
     }
 
     .block-wireframes {
@@ -2050,26 +2061,30 @@ body {
     }
 
     .box-img-wirepaper{
-        width: 60%;
+        width: 50%;
     }
 
     .box-img-digital-wire {
-        width: 40%;
+        width: 36%;
         margin-top: 50px;
     }
 
     .box-img-digital-wire-1 {
-        width: 40%;
+        width: 36%;
         margin-top: 55px;
     }
 
     .box-img-sitemap{
-        width: 80%;
+        width: 65%;
     }
 
 
     .block-screenflow-nutri {
         margin-top: 150px;
+    }
+
+    .box-img-screenNutri{
+        width: 60%;
     }
 
     .block-test-nutri {
@@ -2078,6 +2093,10 @@ body {
 
     .box-img-testResult{
         width: 30%;
+    }
+
+     .box-hifi-img-nutri {
+        width: 70%;
     }
 
     .box-img-testResult-1{
