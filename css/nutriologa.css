@@ -1669,7 +1669,7 @@ body {
     }
 
 
-     /* Footer ------------------ */
+    /* Footer ------------------ */
      footer {
         display: inline-block;
         position:relative;
@@ -1742,6 +1742,12 @@ body {
         background-color: #bb9eb2e0;
         /* solo background para area de navbar */
     }
+
+
+
+
+
+    /* BOXES -------------------------------- */
 
 
     .main-title {
@@ -1960,7 +1966,7 @@ body {
 
 @media only screen and (min-width: 1280px) {
 
-     /* NAVBAR ----------------------------------------- */
+    /* NAVBAR ----------------------------------------- */
  
      li a {
         margin: 25px;

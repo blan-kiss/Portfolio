@@ -1565,7 +1565,7 @@ body {
         text-decoration: none;
         color: #7b7979;
         border: 1px solid #2f2859;
-        width: 0%;
+        width: 20%;
         text-align: center;
         padding: 5px;
         border-radius: 5px;
@@ -1629,4 +1629,559 @@ body {
     }
 
     /* BOXES ---------------------- */
+
+    .container-abc {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        width: 95%;
+        margin: 15px 8px;
+    }
+
+    .title-abc {
+       font-size: 1.4em;
+    }
+
+    .iphone-image-abc{
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 30px;
+        width: 70%;
+    }
+
+    .box-ux-case {
+       width: 100%;
+    }
+
+
+
+    /* Footer ------------------ */
+    footer {
+       
+       font-size: 0.9em;
+       
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* TABLET IPAD-PRO --------------------------------------------------*/
+
+@media only screen and (min-width:1024px)  {
+
+    /* NAVBAR ----------------------------------------------------------- */
+
+    li a  {
+        margin: 15px;
+   
+    }
+
+    #logo-baner {
+        width: 85%;
+        margin-left: 20px;
+        margin-right: -7px;
+        /* Logo brand */
+    }
+
+    #logo-baner {
+        width: 190%;
+        margin-left: 6px;
+    
+    }
+    /* Para mover el logo */
+
+    a.nav-link {
+        margin-left: 5px;
+        margin-right: 10px;    
+    }
+    /* Ajustar links del menu el texto HOME/Work */
+
+
+    div .container  {
+        margin-left: 6px;
+        padding: 0;
+    }
+
+    div .navbar-collapse {
+        margin-left: 47%;
+    }
+    /* Para mover los links de menu hacia la derecha */
+
+
+    header {
+        position: fixed;
+        top:0;
+        width: 100%;
+    }
+    /* Fijar el menu */
+
+    .navbar-light {
+        background-color: #bb9eb2e0;
+        /* solo background para area de navbar */
+    }
+
+
+
+    /* BOXES  ------------------------------ */
+
+    .title-abc {
+        font-size: 1.8em;
+    }
+
+    .iphone-image-abc{
+        width: 65%;
+    }
+
+    .subt-learn {
+        font-size: 13px;
+    }
+
+
+    .text-learn {
+        font-size: 13px;
+    }
+
+
+    .subt-goal {
+        font-size: 13px;
+        padding-right: 15px;
+    }
+
+    .text-goal {
+        font-size: 13px;
+    }
+
+
+    .subt-role {
+        font-size: 13px;
+    }
+
+    .text-role {
+        font-size: 13px;
+    }
+
+    .block-research {
+        margin-top: 55px;
+    }
+
+
+    .subt-research {
+        font-size: 15px;
+    }
+
+   
+
+    .subt-target {
+        font-size: 13px;
+        
+    }
+
+    .text-target {
+        font-size: 13px;
+    }
+
+    .block-initial-design {
+        margin-top: 50px;
+    }
+
+    .subt-initial-design {
+        font-size: 13px;
+    }
+
+    .block-persona1 {
+        margin-top: 20px;
+    }
+
+
+    .subt-persona1 {
+        font-size: 13px;
+    }
+
+    .box-img-persona{
+        width: 70%;
+        margin-top: 30px;
+    }
+
+    .box-img-persona-1{
+        width: 70%;
+    }
+
+    .subt-wireframes {
+        font-size: 15px;
+        margin-top: 30px;
+    }
+
+    .subt-paper-wireframe {
+        font-size: 13px;
+    }
+
+
+    .box-img-wirepaper{
+        width: 55%;
+    }
+
+    #wirepaper {
+        width: 100%;
+    }
+
+    .subt-digital-wire {
+        font-size: 13px;
+    }
+
+    .box-img-digital-wire {
+        width: 30%;
+       
+    }
+
+
+    .box-img-digital-wire-1 {
+        width: 34%;
+    }
+
+    .subt-sitemap {
+        font-size: 13px;
+    }
+
+    .box-img-sitemap{
+        width: 40%;
+    }
+
+    .subt-screenflow-read {
+        font-size: 15px;
+    }
+
+
+    .lo-fi-read {
+        font-size: 13px;
+    }
+
+    .box-img-read{
+        width: 80%;
+        margin-bottom: 80px;
+    }
+
+
+    .subt-test-read {
+        font-size: 15px;
+    }
+
+
+    li.list-userTest  {
+        font-size: 13px;
+       
+    }
+
+    .box-img-testResult{
+        width: 40%;
+        margin-top: 70px;
+    }
+
+
+    .box-img-testResult-1{
+        width: 40%;
+        margin-top: 70px;
+    }
+
+
+    .block-conclution-read {
+        width: 70%;
+    }
+
+
+    .conclutions-read  {
+        font-size: 12px;
+        
+    }
+
+    .hi-fi-read {
+        font-size: 13px;
+    }
+
+
+    #hifi-read-img {
+        width: 60%;
+    }
+
+
+
+    .text-mock-read {
+        font-size: 15px;
+    }
+
+
+    .box-mock-read-img {
+        width: 60%;
+    }
+
+    .xd-read-block {
+        width: 40%;
+    }
+
+
+    .view-xd-read {
+        font-size: 11px;
+    }
+
+
+    .learn-read {
+        font-size: 13px;
+    }
+
+
+    .whatlearn-read {
+        font-size: 13px;
+    }
+
+    .next-read {
+        font-size: 13px;
+    }
+
+    li.next-list-read {
+        font-size: 13px;
+       
+    }
+
+    .back {
+        font-size: 11px;
+        width: 20%;
+    }
+
+
+
+    /* Footer ------------------ */
+    footer {
+       font-size: 1em;
+    }
+
+
+
+
+
+}
+
+
+
+
+
+
+
+/* DESKTOP -------------------------------------------*/
+
+
+@media only screen and (min-width: 1280px) {
+
+    /* NAVBAR ----------------------------------------- */
+ 
+    li a {
+        margin: 25px;
+        padding: 100px;
+        border-radius: 6px;
+    }
+    /* para escritorio */
+
+
+    ul li a {
+        font-family: 'Montserrat', sans-serif;
+    }
+    li a:hover {
+        background-color: #2f2859;
+        border-radius: 6px;
+        color: white !important;
+    }
+
+    a.nav-link {
+        margin-left: 25px;
+        margin-right: 20px;    
+    }
+    /* Ajustar links del menu el texto HOME/Work */
+
+    div .navbar-collapse {
+        margin-left: 60%;
+    }
+    /* Para mover las opciones de menu - texto */
+    #logo-baner {
+        width: 100%;
+        margin-left: 111px;
+    }
+
+    /* ----------------------------------------- */
+   header {
+       position: fixed;
+       top:0;
+       width: 100%;
+   }
+   /* Fijar menu navbar */
+
+   .navbar-light {
+        background-color: #bb9eb2e0;
+        /* solo background para area de navbar */
+   
+    }
+
+
+    /* BOXES ------------------------- */
+
+    .container-abc {
+        width: 80%;
+        margin: 25px 8px;
+    }
+
+    .title-abc {
+        font-size: 20px;
+    }
+
+    .iphone-image-abc{
+        width: 50%;
+    }
+
+    .box-ux-case {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-top: 30px;
+        width: 100%;
+    }
+
+    .subt-learn {
+        padding-right: 15px;
+    }
+
+    .block-research {
+        margin-top: 70px;
+    }
+
+    .subt-target {
+        margin-right: 15px;
+    }
+
+    .block-initial-design {
+        margin-top: 70px;
+    }
+
+    .box-img-persona{
+        width: 43%;
+        margin-right: 30px;
+    }
+
+    .box-img-persona-1{
+        width: 43%;
+    }
+
+    .block-wireframes {
+        margin-top: 100px;
+    }
+
+    .box-img-wirepaper{
+        width: 48%;
+    }
+
+    .block-digital-wire  {
+        margin-top: 50px;
+    }
+
+    .box-img-digital-wire {
+        width: 31%;
+        margin-top: 60px;
+    }
+
+    .box-img-digital-wire-1 {
+        width: 35%;
+        margin-top: 60px;
+    }
+
+    .block-sitemap {
+        margin-top: 66px;
+    }
+
+    .box-img-sitemap{
+        width: 34%;
+        margin-bottom: 50px;
+    }
+
+    .box-img-read{
+        width: 70%;
+        margin-bottom: 80px;
+    }
+
+    .box-img-testResult{
+        width: 30%;
+       
+    }
+
+    .box-img-testResult-1{
+        width: 30%;
+       
+    }
+
+
+    .Hi-Fi-read {
+        margin-top: 80px;
+    }
+
+    .box-hifi-img-read {
+        width: 88%;
+        margin-top: 70px;
+        margin-bottom: 50px;
+    }
+
+    .box-mock-read-img {
+        width: 55%;
+    }
+
+    .xd-read-block {
+        width: 100%;
+    }
+
+    .view-xd-read {
+        font-size: 11px;
+        width: 27%;
+    }
+
+    .learning-read-box {
+        justify-content: initial;
+    }
+
+    .back {
+        font-size: 11px;
+    }
+
+    .back-ux-box {
+        width: 50%;
+    }
+
+    .back:hover {
+       
+        background-color: #bb9eb2e0;
+        color: #fff;
+    }
+
+    .view-xd-read:hover {
+       
+        background-color: #bb9eb2e0;
+        color: #fff;
+    }
+
+    
+    
+    /* Footer ------------------------------------ */
+     footer {
+        font-size: 14px;
+        margin-bottom: 30px;
+        
+     }
+
+    
+
+   
+
 }
