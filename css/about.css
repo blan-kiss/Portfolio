@@ -1,0 +1,210 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    
+    background-repeat: no-repeat;
+    background: cover;
+    margin: 0;
+    padding: 0;
+   
+}
+
+@media (min-width: 280px) and (max-width: 480px) {
+
+     /* Navbar -------------------------------*/
+     #logo-baner {
+        width: 80%;
+        /* border: 1px solid orangered; */
+        margin-left: 0px;
+        margin-right: -7px;
+        background-color: transparent;
+    }
+
+    /* Recorre el menu de hamburguesa */
+    nav .navbar {
+        background: transparent;
+        width: 60%;
+    }
+
+
+   
+
+    .navbar-nav {
+        font-family: 'Montserrat', sans-serif;
+        color: rgb(90, 88, 88);
+    }
+
+    .navbar-light {
+        background-color: #bb9eb2e0;
+        /* solo background para area de navbar */
+    }
+    
+    .navbar-light .navbar-toggler {
+        border: 5px solid #1b123c;
+        margin-right: 30px;
+    }
+
+    a.nav-link {
+        margin-left: 25px;
+    
+    }
+    /* Ajustar links del menu el texto HOME/Work cuando se despliega*/
+
+
+    header {
+        position: fixed;
+        top:0;
+        width: 100%;
+    }
+    /* Fijar menu navbar */
+
+
+
+
+
+    /* BOXES -------------------------- */
+
+
+    .main-container-about {
+        /* border: 2px solid red; */
+        display: flex;
+        flex-wrap: wrap;
+        width: 100% auto;
+        justify-content: center;
+        margin-top: 130px;
+    }
+
+    .content-about {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 90%;
+        margin: 8px;
+    }
+
+    .block-about {
+        background-color: #8b617f;
+        border-radius: 6px;
+        text-align: center;
+        width: 100%;
+    }
+
+    .text-about {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 1em;
+        font-variant-caps: all-petite-caps;
+        margin-bottom: 0;
+        color: white;
+    }
+
+    .box-photo {
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 30px;
+        width: 80%;
+        border-radius: 6px;
+        border: 1px solid #4c5384;
+        justify-content: center;
+    }
+
+
+   
+    #blank {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border-radius: 28px;
+        padding: 20px;
+       
+    }
+
+
+    .datos {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        margin-top: 50px;
+    }
+
+    .name {
+        font-size: 18px;
+        font-weight: 600;
+        font-family: 'Montserrat', sans-serif;
+        text-align: justify;
+        color: #565454;
+    }
+
+
+    .info {
+        width: 80%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        margin-top: 30px;
+    }
+
+
+    .texto {
+        font-size: 12px;
+        font-family: 'Montserrat', sans-serif;
+        text-align: justify;
+        color: #565454;
+    }
+
+
+    .icons {
+        display: flex;
+        flex-wrap: wrap;
+        width: 80%;
+        margin-top: 60px;
+        /* border: 2px solid red; */
+    }
+
+    #in  {
+        width: 10%;
+        margin-right: 20px;
+        
+    }
+
+    #git  {
+        width: 10%;
+        
+    }
+
+
+
+
+
+
+
+
+
+
+
+    /* Footer ------------------ */
+    footer {
+        display: inline-block;
+        position:relative;
+        bottom: 0;
+        line-height: 80px;
+        text-align: center;
+        min-width: 100%;
+        color: rgb(44, 43, 43);
+       font-size: 0.7em;
+       font-family: 'Montserrat', sans-serif;
+    }
+
+
+
+}
