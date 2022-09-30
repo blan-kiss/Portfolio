@@ -173,6 +173,37 @@ body {
     }
 
 
+    .google {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        width: 40%;
+        margin-top: 50px;
+        margin-right: 20px;
+    }
+
+    #ux-cer {
+
+        width: 100%;
+    }
+
+
+    .michigan{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        width: 40%;
+        margin-top: 50px
+    }
+
+    #uni {
+
+        width: 80%;
+    }
+
+
     .icons {
         display: flex;
         flex-wrap: wrap;
@@ -387,6 +418,35 @@ body {
         margin-top: 60px;
         justify-content: center;
         align-items: center;
+    }
+
+
+    .google {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        width: 35%;
+        margin-top: 50px
+    }
+
+    #ux-cer {
+
+        width: 100%;
+    }
+
+    .michigan{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        width: 40%;
+        margin-top: 50px
+    }
+
+    #uni {
+
+        width: 65%;
     }
 
     #in  {
@@ -646,7 +706,7 @@ body {
 
     /* Footer ------------------ */
     footer {
-        position:absolute;
+        position:relative;
         font-size: 1em;
     }
 
