@@ -748,16 +748,21 @@ body {
         width: 95%;
         margin-left: 8px;
         margin-top: 28px;
+       
+       
     }
 
 
     .link-villa {
-        font-size: 12px;
+        font-size: 10px;
         font-family: 'Montserrat', sans-serif;
-        width: 80%;
-        color: #4c5384;
+        width: 50%;
+        color: #fff;
         text-align: center;
         text-decoration: none;
+        background-color: #4c5384;
+        border-radius: 6px;
+        padding:5px ;
     }
 
 
@@ -1615,12 +1620,15 @@ body {
 
 
     .link-villa {
-        font-size: 12px;
+        font-size: 10px;
         font-family: 'Montserrat', sans-serif;
-        width: 80%;
-        color: #4c5384;
+        width: 40%;
+        color: #fff;
         text-align: center;
         text-decoration: none;
+        background-color: #4c5384;
+        border-radius: 6px;
+        padding:5px ;
     }
 
 
@@ -2223,12 +2231,15 @@ body {
 
 
     .link-villa {
-        font-size: 13px;
+        font-size: 10px;
         font-family: 'Montserrat', sans-serif;
-        width: 80%;
-        color: #4c5384;
+        width: 20%;
+        color: #fff;
         text-align: center;
         text-decoration: none;
+        background-color: #4c5384;
+        border-radius: 6px;
+        padding:5px ;
     }
 
 
@@ -2706,6 +2717,12 @@ body {
        
         background-color: #bb9eb2e0;
         color: #fff;
+    }
+
+    .link-villa:hover {
+       color: #1b123c;
+       background-color: #4c538480;
+       
     }
 
     /* Footer ------------------------------------ */
