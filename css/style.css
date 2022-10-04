@@ -207,7 +207,7 @@ p {
 
 /* TABLET IPAD-PRO --------------------------------------------------*/
 
-@media only screen and (min-width:992px) {
+@media only screen and (min-width:1024px) {
     #main-container {
         /* border: 3px solid darkred; */
         display: flex;
@@ -247,7 +247,7 @@ p {
     }
     footer {
         display: inline-block;
-        position: absolute;
+        position: relative;
         bottom: 0;
         /* line-height: 80px; */
         text-align: center;
