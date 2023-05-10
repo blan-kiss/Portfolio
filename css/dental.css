@@ -1,0 +1,1336 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    
+    background-repeat: no-repeat;
+    background: cover;
+    margin: 0;
+    padding: 0;
+   
+}
+
+@media (min-width: 280px) and (max-width: 480px)  {
+
+     /* Navbar -------------------------------*/
+     #logo-baner {
+        width: 80%;
+        /* border: 1px solid orangered; */
+        margin-left: 0px;
+        margin-right: -7px;
+        background-color: transparent;
+    }
+
+    /* Recorre el menu de hamburguesa */
+    nav .navbar {
+        background: transparent;
+        width: 60%;
+    }
+
+
+    .navbar-nav {
+        font-family: 'Montserrat', sans-serif;
+        color: rgb(90, 88, 88);
+    }
+
+    .navbar-light {
+        background-color: #bb9eb2e0;
+        /* solo background para area de navbar */
+    }
+    
+    .navbar-light .navbar-toggler {
+        border: 5px solid #1b123c;
+        margin-right: 30px;
+    }
+
+    a.nav-link {
+        margin-left: 25px;
+    
+    }
+    /* Ajustar links del menu el texto HOME/Work cuando se despliega*/
+
+
+    header {
+        position: fixed;
+        top:0;
+        width: 100%;
+    }
+    /* Fijar menu navbar */
+
+
+    /* BOXES  -------------------------- */
+
+    .main-dentis {
+        /* border: 2px solid red; */
+        display: flex;
+        flex-wrap: wrap;
+        width: 100% auto;
+        justify-content: center;
+        margin-top: 130px;
+    }
+
+    .container-dentis {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 90%;
+        margin: 8px;
+    }
+
+    .block-title-dentis {
+        background-color: #8b617f;
+        border-radius: 6px;
+        text-align: center;
+        width: 100%;
+    }
+
+    .title-dentis {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 1em;
+        font-variant-caps: all-petite-caps;
+        margin-bottom: 0;
+        color: white;
+    }
+
+    .imac-image-dentis{
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 30px;
+        width: 100%;
+    }
+
+    #imac-dentis {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .box-ux-case {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-top: 22px;
+    }
+
+    .ux-text  {
+        font-size: 10px;
+        font-family: 'Montserrat', sans-serif;
+        color: #565454;
+    }
+
+    .block-text-dentis {
+        display: flex;
+        flex-wrap: wrap;
+        width: 95%;
+        margin-left: 8px;
+        margin-top: 35px;
+    }
+
+    .subt-dentis {
+        font-size: 12px;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 600;
+        color: #565454;
+    }
+
+    .text-dentis {
+        font-size: 11px;
+        font-family: 'Montserrat', sans-serif;
+        text-align: justify;
+        color: #565454;
+    }
+
+    .block-goal {
+        display: flex;
+        flex-wrap: wrap;
+        width: 95%;
+        margin-left: 8px;
+        margin-top: 35px;
+    }
+
+    .subt-goal {
+        font-size: 12px;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 600;
+        color: #565454;
+    }
+
+    .text-goal {
+        font-size: 11px;
+        font-family: 'Montserrat', sans-serif;
+        text-align: justify;
+        color: #565454;
+    }
+
+    .block-myrole {
+        display: flex;
+        flex-wrap: wrap;
+        width: 95%;
+        margin-left: 8px;
+        margin-top: 35px;
+    }
+
+    .subt-role {
+        font-size: 12px;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 600;
+        color: #565454;
+    }
+
+    .text-role {
+        font-size: 11px;
+        font-family: 'Montserrat', sans-serif;
+        text-align: justify;
+        color: #565454;
+    }
+
+   
+
+   
+
+    .block-wireframes {
+        display: flex;
+        flex-wrap: wrap;
+        width: 95%;
+        margin-left: 8px;
+        margin-top: 35px;
+    }
+
+
+    .subt-wireframes {
+        font-size: 14px;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 600;
+        color: #565454;
+    }
+
+   
+
+   
+
+    .block-digital-wire {
+        display: flex;
+        flex-wrap: wrap;
+        width: 95%;
+        margin-left: 8px;
+        margin-top: 18px;
+    }
+
+
+    .subt-digital-wire {
+        font-size: 12px;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 600;
+        color: #565454;
+    }
+
+    .box-img-digital-wire {
+        width: 95%;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #wiredigital{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .box-img-digital-wire-1 {
+        width: 95%;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #wiredigital-1{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .block-sitemap {
+        display: flex;
+        flex-wrap: wrap;
+        width: 95%;
+        margin-left: 8px;
+        margin-top: 30px;
+    }
+
+
+    .subt-sitemap {
+        font-size: 12px;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 600;
+        color: #565454;
+    }
+
+    .box-img-sitemap{
+        width: 85%;
+        margin-top: 30px;
+        margin-bottom: 10px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    #sitemap-dentist {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 15px;
+    }
+
+    .block-screenflow-dentist {
+        display: flex;
+        flex-wrap: wrap;
+        width: 95%;
+        margin-left: 8px;
+        margin-top: 60px;
+    }
+
+    .subt-screenflow-dentist {
+        font-size: 14px;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 600;
+        color: #565454;
+    }
+
+
+
+
+    .box-img-dentist{
+        width: 100%;
+        margin-top: 30px;
+        margin-bottom: 10px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    #dentist {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 15px;
+    }
+
+
+   
+
+    .Hi-Fi-dentist {
+        display: flex;
+        flex-wrap: wrap;
+        width: 95%;
+        margin-left: 8px;
+        margin-top: 22px;
+    }
+
+
+    .hi-fi-dentist {
+        font-size: 12px;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 600;
+        color: #565454;
+    }
+
+   
+    .block-mockup-dentist {
+        display: flex;
+        flex-wrap: wrap;
+        width: 95%;
+        margin-left: 8px;
+        margin-top: 88px;
+    }
+
+
+    .text-mock-dentist {
+        font-size: 14px;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 600;
+        color: #565454;
+    }
+
+    .box-mock-dentist-img {
+        width: 100%;
+        margin-bottom: 10px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-top: 30px;
+    }
+
+    #mockup-dentist-img {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .xd-dentist-block {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 95%;
+        margin-left: 8px;
+        margin-top: 28px;
+        
+    }
+
+
+   
+
+
+    .back-ux-box {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 95%;
+        margin-left: 8px;
+        margin-top: 18px;
+        margin-bottom: 20px;
+        
+    }
+
+
+    .back {
+        font-size: 10px;
+        font-family: 'Montserrat', sans-serif;
+        text-decoration: none;
+        color: #7b7979;
+        border: 1px solid #2f2859;
+        width: 30%;
+        text-align: center;
+        padding: 5px;
+        border-radius: 5px;
+    }
+
+
+
+    /* Footer ------------------ */
+    footer {
+        display: inline-block;
+        position:relative;
+        bottom: 0;
+        line-height: 80px;
+        text-align: center;
+        min-width: 100%;
+        color: rgb(44, 43, 43);
+       font-size: 0.7em;
+       font-family: 'Montserrat', sans-serif;
+    }
+
+
+   
+
+
+}
+
+
+/* For tablets: SURFACE DUO  -----------------------------*/
+@media only screen and (min-width: 500px) {
+
+     /* NAVBAR ------------------------------------- */
+     .navbar-light {
+        background-color: #bb9eb277;
+       
+        /* solo background para area de navbar */
+    }
+    nav .navbar {
+        background: transparent;
+    }
+    /* quitar background del cuadro donde aparace el logo parte del nav */
+    .navbar-light .navbar-toggler {
+        margin-right: 25px;
+    }
+    /* mover menu hamburguer */
+    a.nav-link {
+        margin-left: 35px;
+        font-family: 'Montserrat', sans-serif;
+    }
+    /* Ajustar links del menu el texto HOME/Work */
+    #logo-baner {
+        width: 80%;
+        margin-left: 10px;
+       
+    }
+
+    header {
+        position: fixed;
+        top:0;
+        width: 100%;
+    }
+    /* Fijar menu navbar */
+ 
+    .navbar-light {
+         background-color: #bb9eb2e0;
+         /* solo background para area de navbar */
+    
+    }
+
+    /* BOXES ----------------------------- */
+
+
+    .main-dentis {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        justify-content: center;
+        margin-top: 130px;
+    }
+
+    .container-dentis {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        width: 95%;
+        margin: 8px;
+    }
+
+
+    .block-title-dentis {
+        background-color: #8b617f;
+        border-radius: 6px;
+        text-align: center;
+        width: 100%;
+    }
+
+
+    .title-dentis {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 1em;
+        font-variant-caps: all-petite-caps;
+        margin-bottom: 0;
+        color: white;
+    }
+
+    .iphone-image-dentis{
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 30px;
+        width: 80%;
+    }
+
+    #imac-dentis {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .box-ux-case {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-top: 22px;
+    }
+
+    .ux-text  {
+        font-size: 10px;
+        font-family: 'Montserrat', sans-serif;
+        color: #565454;
+    }
+
+    .block-text-dentis {
+        display: flex;
+        flex-wrap: wrap;
+        width: 95%;
+        margin-left: 8px;
+        margin-top: 35px;
+    }
+
+    .subt-dentis {
+        font-size: 12px;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 600;
+        color: #565454;
+    }
+
+    .text-dentis {
+        font-size: 11px;
+        font-family: 'Montserrat', sans-serif;
+        text-align: justify;
+        color: #565454;
+    }
+
+    .block-goal {
+        display: flex;
+        flex-wrap: wrap;
+        width: 95%;
+        margin-left: 8px;
+        margin-top: 35px;
+    }
+
+    .subt-goal {
+        font-size: 12px;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 600;
+        color: #565454;
+    }
+
+    .text-goal {
+        font-size: 11px;
+        font-family: 'Montserrat', sans-serif;
+        text-align: justify;
+        color: #565454;
+    }
+
+    .block-myrole {
+        display: flex;
+        flex-wrap: wrap;
+        width: 95%;
+        margin-left: 8px;
+        margin-top: 35px;
+    }
+
+    .subt-role {
+        font-size: 12px;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 600;
+        color: #565454;
+        padding-right: 15px;
+    }
+
+    .text-role {
+        font-size: 11px;
+        font-family: 'Montserrat', sans-serif;
+        text-align: justify;
+        color: #565454;
+    }
+
+   
+
+   
+
+    .block-wireframes {
+        display: flex;
+        flex-wrap: wrap;
+        width: 95%;
+        margin-left: 8px;
+        margin-top: 50px;
+    }
+
+
+    .subt-wireframes {
+        font-size: 14px;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 600;
+        color: #565454;
+    }
+
+
+   
+
+    
+
+    .block-digital-wire {
+        display: flex;
+        flex-wrap: wrap;
+        width: 95%;
+        margin-left: 8px;
+        margin-top: 40px;
+    }
+
+
+    .subt-digital-wire {
+        font-size: 12px;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 600;
+        color: #565454;
+    }
+
+    .box-img-digital-wire {
+        width: 70%;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #wiredigital{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .box-img-digital-wire-1 {
+        width: 70%;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #wiredigital-1{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .block-sitemap {
+        display: flex;
+        flex-wrap: wrap;
+        width: 95%;
+        margin-left: 8px;
+        margin-top: 40px;
+    }
+
+    .subt-sitemap {
+        font-size: 12px;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 600;
+        color: #565454;
+    }
+
+    .box-img-sitemap{
+        width: 85%;
+        margin-top: 30px;
+        margin-bottom: 10px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    #sitemap-dentist {
+        width: 90%;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 15px;
+    }
+
+    
+
+   
+    .block-screenflow-dentist {
+        display: flex;
+        flex-wrap: wrap;
+        width: 95%;
+        margin-left: 8px;
+        margin-top: 60px;
+    }
+
+    .subt-screenflow-dentist {
+        font-size: 14px;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 600;
+        color: #565454;
+    }
+
+    .Hi-Fi-dentist {
+        display: flex;
+        flex-wrap: wrap;
+        width: 95%;
+        margin-left: 8px;
+        margin-top: 70px;
+    }
+
+
+    .hi-fi-dentist {
+        font-size: 12px;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 600;
+        color: #565454;
+    }
+
+   
+
+
+    .box-img-dentist{
+        width: 90%;
+        margin-top: 30px;
+        margin-bottom: 10px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    #dentist {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 15px;
+    }
+
+
+   
+
+   
+
+    .block-mockup-dentist {
+        display: flex;
+        flex-wrap: wrap;
+        width: 95%;
+        margin-left: 8px;
+        margin-top: 88px;
+    }
+
+
+    .text-mock-dentist {
+        font-size: 14px;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 600;
+        color: #565454;
+    }
+
+    .box-mock-dentist-img {
+        width: 100%;
+        margin-bottom: 10px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-top: 30px;
+    }
+
+    #mockup-dentist-img {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+   
+
+    .back-ux-box {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 95%;
+        margin-left: 8px;
+        margin-top: 18px;
+        margin-bottom: 20px;
+        
+    }
+
+
+    .back {
+        font-size: 10px;
+        font-family: 'Montserrat', sans-serif;
+        text-decoration: none;
+        color: #7b7979;
+        border: 1px solid #2f2859;
+        width: 20%;
+        text-align: center;
+        padding: 5px;
+        border-radius: 5px;
+    }
+
+
+
+    /* Footer ------------------ */
+    footer {
+        display: inline-block;
+        position:relative;
+        bottom: 0;
+        line-height: 80px;
+        text-align: center;
+        min-width: 100%;
+        color: rgb(44, 43, 43);
+       font-size: 0.7em;
+       font-family: 'Montserrat', sans-serif;
+    }
+
+
+
+
+}
+
+
+
+
+
+/* TABLET IPAD ------------------------------------------------------*/
+
+@media only screen and (min-width: 750px) {
+
+     /*NAVBAR --------------------------------------------------------  */
+
+     a.nav-link {
+        margin-left: 38px;
+        
+    }
+    /* Ajustar links del menu el texto HOME/Work */
+
+    
+    #logo-baner {
+        width: 85%;
+        margin-left: 20px;
+        margin-right: -7px;
+        /* Logo brand */
+    } 
+
+    header {
+        position: fixed;
+        top:0;
+        width: 100%;
+    }
+    /* Fijar menu navbar */
+ 
+    .navbar-light {
+         background-color: #bb9eb2e0;
+         /* solo background para area de navbar */
+    
+    }
+
+    /* BOXES ---------------------- */
+
+    .container-dentis {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        width: 95%;
+        margin: 15px 8px;
+    }
+
+    .title-dentis {
+       font-size: 1.4em;
+    }
+
+    .imac-image-dentis{
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 30px;
+        width: 70%;
+    }
+
+    .subt-dentis {
+        font-size: 12px;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 600;
+        color: #565454;
+        padding-right: 30px;
+    }
+
+    .subt-goal {
+        font-size: 12px;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 600;
+        color: #565454;
+        padding-right: 30px;
+    }
+
+    .box-ux-case {
+       width: 100%;
+    }
+
+
+
+    /* Footer ------------------ */
+    footer {
+       
+       font-size: 0.9em;
+       
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* TABLET IPAD-PRO --------------------------------------------------*/
+
+@media only screen and (min-width:1024px)  {
+
+    /* NAVBAR ----------------------------------------------------------- */
+
+    li a  {
+        margin: 15px;
+   
+    }
+
+    #logo-baner {
+        width: 85%;
+        margin-left: 20px;
+        margin-right: -7px;
+        /* Logo brand */
+    }
+
+    #logo-baner {
+        width: 190%;
+        margin-left: 6px;
+    
+    }
+    /* Para mover el logo */
+
+    a.nav-link {
+        margin-left: 5px;
+        margin-right: 10px;    
+    }
+    /* Ajustar links del menu el texto HOME/Work */
+
+
+    div .container  {
+        margin-left: 6px;
+        padding: 0;
+    }
+
+    div .navbar-collapse {
+        margin-left: 47%;
+    }
+    /* Para mover los links de menu hacia la derecha */
+
+
+    header {
+        position: fixed;
+        top:0;
+        width: 100%;
+    }
+    /* Fijar el menu */
+
+    .navbar-light {
+        background-color: #bb9eb2e0;
+        /* solo background para area de navbar */
+    }
+
+
+
+    /* BOXES  ------------------------------ */
+
+    .title-dentis {
+        font-size: 1.8em;
+    }
+
+    .iphone-image-dentis{
+        width: 65%;
+    }
+
+    .subt-dentis {
+        font-size: 13px;
+        padding-right: 20px;
+    }
+
+
+    .text-dentis {
+        font-size: 13px;
+    }
+
+
+    .subt-goal {
+        font-size: 13px;
+        padding-right: 15px;
+    }
+
+    .text-goal {
+        font-size: 13px;
+    }
+
+
+   
+
+    .subt-wireframes {
+        font-size: 15px;
+        margin-top: 30px;
+    }
+
+   
+
+
+    .subt-digital-wire {
+        font-size: 13px;
+    }
+
+    .box-img-digital-wire {
+        width: 40%;
+        margin-right:20px;
+       
+    }
+
+
+    .box-img-digital-wire-1 {
+        width: 40%;
+    }
+
+    .subt-sitemap {
+        font-size: 13px;
+    }
+
+    .box-img-sitemap{
+        width: 55%;
+        margin-top: 15px;
+    }
+
+    .subt-screenflow-dentist {
+        font-size: 15px;
+    }
+
+    .hi-fi-dentist {
+        font-size: 13px;
+    }
+
+
+
+    .box-img-dentist{
+        width: 80%;
+        margin-bottom: 80px;
+    }
+
+
+    .subt-test-read {
+        font-size: 15px;
+    }
+
+
+   
+   
+    .text-mock-dentist {
+        font-size: 15px;
+    }
+
+
+    .box-mock-dentist-img {
+        width: 95%;
+    }
+
+   
+
+    .back {
+        font-size: 11px;
+        width: 20%;
+    }
+
+
+
+    /* Footer ------------------ */
+    footer {
+       font-size: 1em;
+    }
+
+
+
+
+
+}
+
+
+
+
+
+
+
+/* DESKTOP -------------------------------------------*/
+
+
+@media only screen and (min-width: 1280px) {
+
+    /* NAVBAR ----------------------------------------- */
+ 
+    li a {
+        margin: 25px;
+        padding: 100px;
+        border-radius: 6px;
+    }
+    /* para escritorio */
+
+
+    ul li a {
+        font-family: 'Montserrat', sans-serif;
+    }
+    li a:hover {
+        background-color: #2f2859;
+        border-radius: 6px;
+        color: white !important;
+    }
+
+    a.nav-link {
+        margin-left: 25px;
+        margin-right: 20px;    
+    }
+    /* Ajustar links del menu el texto HOME/Work */
+
+    div .navbar-collapse {
+        margin-left: 60%;
+    }
+    /* Para mover las opciones de menu - texto */
+    #logo-baner {
+        width: 100%;
+        margin-left: 111px;
+    }
+
+    /* ----------------------------------------- */
+   header {
+       position: fixed;
+       top:0;
+       width: 100%;
+   }
+   /* Fijar menu navbar */
+
+   .navbar-light {
+        background-color: #bb9eb2e0;
+        /* solo background para area de navbar */
+   
+    }
+
+
+    /* BOXES ------------------------- */
+
+    .container-dentis {
+        width: 80%;
+        margin: 25px 8px;
+    }
+
+    .title-dentis {
+        font-size: 20px;
+    }
+
+    .imac-image-dentis{
+        width: 70%;
+    }
+
+    .box-ux-case {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-top: 15px;
+        margin-bottom: 30px;
+        width: 100%;
+    }
+
+    .subt-role {
+        font-size: 13px;
+    }
+
+    .text-role {
+        font-size: 13px ;
+    }
+
+   
+
+    .block-wireframes {
+        margin-top: 100px;
+    }
+
+
+
+    .block-digital-wire  {
+        margin-top: 50px;
+    }
+
+    .box-img-digital-wire {
+        width: 40%;
+        margin-top: 60px;
+    }
+
+    .box-img-digital-wire-1 {
+        width: 40%;
+        margin-top: 60px;
+    }
+
+    .block-sitemap {
+        margin-top: 66px;
+    }
+
+    .box-img-sitemap{
+        width: 43%;
+        margin-bottom: 50px;
+    }
+
+    .box-img-dentist{
+        width: 70%;
+        margin-bottom: 80px;
+    }
+
+
+
+    .Hi-Fi-dentist {
+        margin-top: 80px;
+    }
+
+
+
+    .box-mock-dentist-img {
+        width: 75%;
+    }
+
+    
+    .back {
+        font-size: 11px;
+    }
+
+    .back-ux-box {
+        width: 50%;
+    }
+
+    .back:hover {
+       
+        background-color: #bb9eb2e0;
+        color: #fff;
+    }
+
+    .view-xd-read:hover {
+       
+        background-color: #bb9eb2e0;
+        color: #fff;
+    }
+
+    
+    
+    /* Footer ------------------------------------ */
+     footer {
+        font-size: 14px;
+        margin-bottom: 30px;
+        
+     }
+
+    
+
+   
+
+}

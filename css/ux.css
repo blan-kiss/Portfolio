@@ -149,10 +149,30 @@ body {
        margin-bottom: 15px;
     }
 
-    #img-read-3 {
+    #img-dental-4 {
         padding: 20px;
         width: 100%;
     }
+
+    .ux-work-4{
+        margin-top: 15px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        border: 1px solid #8b617f;
+        border-top-left-radius: 50px;
+        border-bottom-right-radius: 50px;
+        width: 100%;
+        margin-bottom: 15px;
+     }
+ 
+     #img-read-3 {
+         padding: 20px;
+         width: 100%;
+     }
+
+
+    
 
 
 
@@ -344,6 +364,25 @@ body {
     }
 
 
+    .ux-work-4{
+        margin-top: 15px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        border: 1px solid #8b617f;
+        border-top-left-radius: 50px;
+        border-bottom-right-radius: 50px;
+        width: 48%;
+        margin-bottom: 15px;
+        margin-left: 20px;
+     }
+ 
+     #img-dental-4 {
+         padding: 20px;
+         width: 100%;
+     }
+
+
 
 
     .menu-down {
@@ -504,6 +543,25 @@ body {
         padding: 20px;
         width: 100%;
     }
+
+
+    .ux-work-4{
+        margin-top: 15px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        border: 1px solid #8b617f;
+        border-top-left-radius: 50px;
+        border-bottom-right-radius: 50px;
+        width: 48%;
+        margin-bottom: 15px;
+     }
+ 
+     #img-dental-4 {
+         padding: 20px;
+         width: 100%;
+     }
+ 
 
 
 
@@ -712,7 +770,7 @@ body {
        border: 1px solid #8b617f;
        border-top-left-radius: 50px;
        border-bottom-right-radius: 50px;
-       width: 25%;
+       width: 20%;
       
        
     }
@@ -734,7 +792,7 @@ body {
        border: 1px solid #8b617f;
        border-top-left-radius: 50px;
        border-bottom-right-radius: 50px;
-       width: 25%;
+       width: 20%;
        margin-bottom: 15px;
        margin-left: 23px;
        margin-right: 23px;
@@ -757,7 +815,7 @@ body {
        border: 1px solid #8b617f;
        border-top-left-radius: 50px;
        border-bottom-right-radius: 50px;
-       width: 25%;
+       width: 20%;
        margin-bottom: 15px;
     }
 
@@ -769,6 +827,30 @@ body {
     #img-read-3:hover {
         opacity: 0.4;
     }
+
+
+    .ux-work-4{
+        margin-top: 15px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        border: 1px solid #8b617f;
+        border-top-left-radius: 50px;
+        border-bottom-right-radius: 50px;
+        width: 20%;
+        margin-bottom: 15px;
+        margin-left: 23px;
+        margin-right: 23px;
+     }
+ 
+     #img-dental-4 {
+         padding: 20px;
+         width: 100%;
+     }
+ 
+     #img-dental-4:hover {
+         opacity: 0.4;
+     }
 
 
 
